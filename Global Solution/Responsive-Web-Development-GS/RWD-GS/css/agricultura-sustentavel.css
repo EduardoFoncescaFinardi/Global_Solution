@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/* Banner principal */
+.banner {
+    background-image: url("../img/fotos-gs/agricultura-sustentavel-banner.jpg");
+    background-repeat: space;
+    background-size: cover;
+    background-position: 0;
+    width: 100%;
+    height: 400px;
+}
+
+:root {
+    --green: #27C97B;
+}
+
+.banner-descricao {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 60%;
+}
+
+.banner-descricao h1 {
+    font-size: 20pt;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.descricao-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.descricao-texto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.descricao-texto h1 {
+    margin-top: 20px;
+    font-size: 18pt;
+    text-align: center;
+    color: var(--green);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.descricao-texto p {
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.descricao-texto2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.descricao-texto2 h1 {
+    margin-top: 20px;
+    font-size: 18pt;
+    text-align: center;
+    color: var(--green);
+    padding-bottom: 20px; 
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.descricao-texto2 p {
+    text-align: center;
+    padding: 5px 0 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.descricao-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.descricao-imagem img {
+    width: 70%;
+    border-radius: 10px;
+}
+
+.descricao-imagem2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.image2 {
+    border-radius: 10px;
+}
+
+.descricao-imagem2 img {
+    width: 70%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.footer-name {
+    margin-left: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+@media (min-width: 768px) {
+
+    .descricao-box {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+    }
+
+    .descricao-box h1 {
+        text-align: start;
+    }
+
+    .descricao-box p {
+        text-align: start;
+    }
+
+    .descricao-box2 {
+        text-align: start;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 80%;
+    }
+
+    .descricao-box2 h1 {
+        text-align: end;
+    }
+
+    .descricao-box2 p {
+        text-align: end;
+    }
+
+    .descricao-imagem {
+        justify-content: end;
+    }
+
+    .descricao-imagem2 {
+        justify-content: start;
+    }
+
+    .descricao-imagem img {
+        width: 100%;
+    }
+
+    .descricao-imagem2 img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .descricao-principal {
+        width: 60%;
+        padding: 20px;
+    }
+
+    h1 {
+        padding-bottom: 20px;
+    }
+}

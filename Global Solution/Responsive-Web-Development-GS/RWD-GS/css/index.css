@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/* Banner principal */
+.banner {
+    background-image: url("../img/fotos-gs/home.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+:root {
+    --green: #27C97B;
+    --blue: #5181DD;
+    --white: #ffffff;
+}
+
+.descricao-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.descricao-texto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.descricao-texto h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: var(--green);
+    font-family: 'Noto Sans', sans-serif; 
+}
+
+.descricao-texto p {
+    text-align: center;
+    padding: 20px 40px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.descricao-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.descricao-imagem img {
+    width: 70%;
+    border-radius: 10px;
+}
+
+.btn-principal {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    background-color: var(--blue);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.btn-principal a {
+    width: 100%;
+    padding: 20px 0;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.btn-principal :hover {
+    color: var(--blue);
+    background-color: var(--white);
+    box-shadow: inset 0 0 0 1.5px var(--blue);
+    border-radius: 10px;
+}
+
+.descricao-botao {
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.footer-name {
+    margin-left: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+@media (min-width: 768px) {
+    .descricao-principal {
+        margin-top: 60px;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .descricao-texto {
+        padding-left: 40px;
+        width: 40%;
+    }
+
+    .descricao-imagem {
+        width: 60%;
+        margin: 0;
+    }
+
+    .descricao-texto h1 {
+        font-size: 20pt;
+        text-align: left;
+        padding: 0 0 20px;
+    }
+
+    .descricao-texto p {
+        text-align: left; 
+        padding: 0;
+    }
+
+    .descricao-botao {
+        margin-top: 60px;
+        font-weight: bold;
+        font-size: 13pt;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .banner {
+        background-position: 0 20%;
+    }
+
+    .descricao-texto {
+        padding-left: 60px;
+    }
+
+    .descricao-texto h1 {
+        font-size: 28pt;
+        text-align: left;
+    }
+
+    .descricao-botao {
+        font-weight: bold;
+        font-size: 15pt;
+    }
+
+    .btn-principal {
+        width: 15%;
+    }
+
+    .btn-principal a {
+        font-size: 15pt;
+    }
+}

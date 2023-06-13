@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/* Banner principal */
+.banner {
+    background-image: url("../img/fotos-gs/contato.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+}
+
+:root {
+    --green: #27C97B;
+    --blue: #5181DD;
+    --white: #ffffff;
+}
+
+.banner-descricao {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 60%;
+}
+
+.banner-descricao h1 {
+    font-size: 40pt;
+    letter-spacing: 5px;
+    color: var(--white);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.titulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18pt;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.relatorio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.relatorio-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.flex-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    box-shadow: inset 0 0 0 1.5px var(--green);
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+  
+.form-group-double {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.form-group-double section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+  
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+  
+input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--green);
+    background-color: var(--white);
+    height: 40px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+textarea {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--green);
+    background-color: var(--white);
+    resize: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.btn-principal {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    background-color: var(--blue);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 15pt;
+}
+
+.btn-principal a {
+    width: 100%;
+    padding: 20px 0;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.btn-principal :hover {
+    color: var(--blue);
+    background-color: var(--white);
+    box-shadow: inset 0 0 0 1.5px var(--blue);
+    border-radius: 10px;
+}
+
+.descricao-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.descricao-imagem img {
+    width: 30%;
+}
+
+.relatorio-descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.relatorio-descricao h1 {
+    color: var(--green);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.relatorio-descricao p {
+    margin: 10px 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.footer-name {
+    margin-left: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+@media (min-width: 768px) {
+
+    .banner {
+        margin: 0;
+        background-size: cover;
+    }
+
+    .relatorio {
+        flex-direction: row;
+    }
+
+    .descricao-imagem {
+        width: 60%;
+    }
+
+    .descricao-imagem img {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .relatorio-form {
+        width: 50%;
+    }
+
+    .descricao-imagem {
+        width: 50%;
+    }
+    
+    .descricao-imagem img {
+        width: 50%;
+    }
+
+    .banner {
+        background-position: 0;
+        background-size: cover;
+        height: 400px;
+    }
+}
