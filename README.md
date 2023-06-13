@@ -13,4 +13,4 @@ The project focuses on identifying people in vulnerable situations and gathering
 - RWD (Responsive Web Development)
 - SD & TX (Software Design and Total Expirience)
 - IA & CB (Artificial Intelligence and Chatbot)
-- These has the same context to get biuld
+These subjects has the same context to get developed.
