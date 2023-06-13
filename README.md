@@ -1,5 +1,5 @@
 # Global_Solution
-This project, Global_Solution, is a collaborative effort between FIAP (my college), Microsoft, Ong Caça-Fome, and Kraft Heinz. Its purpose is to address worldwide hunger, food shortage, and sustainable agriculture through the application of technology.
+This project, Global_Solution, is a collaborative effort between FIAP (my college), Microsoft, Ong Caça-Fome, and Kraft Heinz. Its purpose is to address worldwide hunger, food shortage, and promote sustainable agriculture through the application of technology.
 
 # Description
 The primary objective of Global_Solution is to combat hunger and global food shortages by developing a comprehensive solution. The project aims to map, locate, and assist individuals in various contexts around the world, as the lack of information regarding production, food, and transportation is a recurring issue in the daily lives of many populations.
