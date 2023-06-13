@@ -1,0 +1,2334 @@
+{
+  "intents": [
+    {
+      "intent": "agradecimento",
+      "examples": [
+        {
+          "text": "Adorei o atendimento de vocês"
+        },
+        {
+          "text": "Ate a proxima"
+        },
+        {
+          "text": "Obrigada"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Obrigado pelo atendimento"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "Valeu"
+        }
+      ],
+      "description": "Essa intenção tem a finalidade de finalizar o diálogo com a pessoa que esta interagindo com a plataforma."
+    },
+    {
+      "intent": "continentes",
+      "examples": [
+        {
+          "text": "Eu moro na África"
+        },
+        {
+          "text": "Eu moro na América"
+        },
+        {
+          "text": "Eu moro na Ásia"
+        },
+        {
+          "text": "Eu moro na Europa"
+        },
+        {
+          "text": "Eu moro na Oceania"
+        }
+      ],
+      "description": "Essa intenção realizará a primeira etapa do processo de funilagem do nosso projeto."
+    },
+    {
+      "intent": "desinformacao",
+      "examples": [
+        {
+          "text": "Eu não sei qual é a minha região"
+        },
+        {
+          "text": "Eu não sei qual é o meu continente"
+        },
+        {
+          "text": "Não faço ideia"
+        },
+        {
+          "text": "Não posso nem imaginar"
+        },
+        {
+          "text": "Não sei"
+        },
+        {
+          "text": "Não sei dizer"
+        },
+        {
+          "text": "Não sei qual é"
+        },
+        {
+          "text": "Sei la"
+        }
+      ],
+      "description": "Essa intenção tem a finalidade de auxiliar o usuário a identificar em que região do país dele ele esta inserido"
+    },
+    {
+      "intent": "doacoes",
+      "examples": [
+        {
+          "text": "Aonde eu posso fazer uma doação?"
+        },
+        {
+          "text": "Como posso doar?"
+        },
+        {
+          "text": "Quero ajudar"
+        },
+        {
+          "text": "Quero fazer uma doação"
+        }
+      ],
+      "description": "Essa intenção tem a finalidade de orientar o usuário aonde ele pode fazer uma doação."
+    },
+    {
+      "intent": "elogios",
+      "examples": [
+        {
+          "text": "Adorei os dados que vocês me enviaram"
+        },
+        {
+          "text": "A pesquisa me ajudou muito"
+        },
+        {
+          "text": "Gostei muito da pesquisa"
+        },
+        {
+          "text": "Que dados legais"
+        },
+        {
+          "text": "Que daora"
+        },
+        {
+          "text": "Que especificações interessantes"
+        },
+        {
+          "text": "que massa"
+        }
+      ],
+      "description": "Com essa intenção o nosso sistema poderá receber elogios sobre o nosso sistema."
+    },
+    {
+      "intent": "informacoes_contato",
+      "examples": [
+        {
+          "text": "Onde posso entrar em contato com vocês?"
+        },
+        {
+          "text": "Posso mandar um email?"
+        },
+        {
+          "text": "Qual é o número de você?"
+        },
+        {
+          "text": "Quero informações extras"
+        },
+        {
+          "text": "Quero ligar para vocês"
+        },
+        {
+          "text": "Quero mais informações sobre o meu país"
+        },
+        {
+          "text": "Quero tirar mais dúvidas"
+        }
+      ],
+      "description": "Essa intenção tem por objetivo dar informações extras para o cliente por outro meio de contato."
+    },
+    {
+      "intent": "paises_africa",
+      "examples": [
+        {
+          "text": "Eu moro na África do Sul"
+        },
+        {
+          "text": "Eu moro na República Democrática do Congo"
+        },
+        {
+          "text": "Eu moro no Egito"
+        }
+      ],
+      "description": "Essa intenção irá devolver as especificações geopolíticas e demográficas dos países da África."
+    },
+    {
+      "intent": "paises_america",
+      "examples": [
+        {
+          "text": "Brasil"
+        },
+        {
+          "text": "Cuba"
+        },
+        {
+          "text": "Estados Unidos"
+        }
+      ],
+      "description": "Essa intenção irá devolver as especificações geopolíticas e demográficas dos países das Américas."
+    },
+    {
+      "intent": "paises_asia",
+      "examples": [
+        {
+          "text": "Eu moro na China"
+        }
+      ],
+      "description": "Essa intenção irá devolver as especificações geopolíticas e demográficas dos países da Ásia."
+    },
+    {
+      "intent": "paises_europa",
+      "examples": [
+        {
+          "text": "Eu moro na França"
+        },
+        {
+          "text": "Eu moro na Inglaterra"
+        }
+      ],
+      "description": "Essa intenção irá devolver as especificações geopolíticas e demográficas dos países da Europa."
+    },
+    {
+      "intent": "paises_oceania",
+      "examples": [
+        {
+          "text": "Eu moro na Austrália"
+        }
+      ],
+      "description": "Essa intenção irá devolver as especificações geopolíticas e demográficas dos países da Oceania."
+    },
+    {
+      "intent": "saudacoes",
+      "examples": [
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Salve"
+        },
+        {
+          "text": "Tudo bem?"
+        }
+      ],
+      "description": "Essa intenção tem a finalidade de realizar o primeiro contato com o usuário da plataforma."
+    },
+    {
+      "intent": "solicitacao_da_pesquisa",
+      "examples": [
+        {
+          "text": "Como eu posso solicitar a pesquisa demográfica do local onde eu moro?"
+        },
+        {
+          "text": "Como que eu faço para solicitar a pesquisa demográfica."
+        },
+        {
+          "text": "Gostaria de solicitar a pesquisa demográfica."
+        },
+        {
+          "text": "Pesquisa"
+        },
+        {
+          "text": "Quais são as especificações demográficas do local onde eu moro?"
+        },
+        {
+          "text": "Quero a pesquisa"
+        },
+        {
+          "text": "Quero realizar a pesquisa demográfica das condições demográficas do meu país."
+        },
+        {
+          "text": "Quero saber as especificações demográficas do país onde eu moro."
+        },
+        {
+          "text": "Quero solicitar a pesquisa"
+        }
+      ],
+      "description": "Essa é a intenção que terá por finalidade permitir que o usuário realize a sua solicitação de pesquisa demográfica."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "africa_do_sul",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "África do Sul",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "agradecimento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Tchau",
+          "synonyms": [
+            "Grata ",
+            "Grato",
+            "Obrigada ",
+            "Obrigado ",
+            "Valeu"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "australia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Austrália",
+          "synonyms": [
+            "Brisbane ",
+            "Camberra",
+            "País da Oceania ",
+            "Sydney"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "avaliacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "numeros",
+          "synonyms": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "brasil",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Brasil",
+          "synonyms": [
+            "Brasília ",
+            "Brazuca ",
+            "Rio de Janeiro ",
+            "São Paulo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "centro_cuba",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Centro de Cuba",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "centro_oeste_brasil",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Centro Oeste do Brasil",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "centro_oeste_eua",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Centro-Oeste dos EUA",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "centro_sul_china",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Centro-Sul da China",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "china",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "China",
+          "synonyms": [
+            "Hainan ",
+            "País da Ásia",
+            "Pequim",
+            "Yunnan "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "continentes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "continentes",
+          "synonyms": [
+            "África",
+            "América ",
+            "Ásia ",
+            "Europa ",
+            "Oceania "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cuba",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cuba",
+          "synonyms": [
+            "Dorna ",
+            "Havana",
+            "Matanzas",
+            "Tonel ",
+            "Villa Clara"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "data_nascimento",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Data de nascimento",
+          "patterns": [
+            "\\d{2}\\/0[12]\\/\\d{4}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "egito",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Egito",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "estados_unidos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Estados Unidos",
+          "synonyms": [
+            "Califórnia ",
+            "EUA",
+            "Flórida ",
+            "New York ",
+            "Washington"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "franca",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "França",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "inglaterra",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Inglaterra",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "leste_africa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Leste da África do Sul",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "leste_congo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Leste da república Democrática do Congo",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "leste_cuba",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Leste de Cuba",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "leste_egito",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Leste do Egito",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "leste_franca",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Leste da França",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "leste_inglaterra",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Leste da Inglaterra",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "meridional_australia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Meridional da Austrália",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nome_usuario",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "nome",
+          "patterns": [
+            "[A-Z][a-z].* [A-Z][a-z].*"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nordeste_brasil",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Nordeste do Brasil",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nordeste_china",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Nordeste da China",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nordeste_eua",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Nordeste dos EUA",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "noroeste_china",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Noroeste da China",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "norte_africa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Norte da África do Sul",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "norte_australia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Norte da Austrália",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "norte_brasil",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Norte do Brasil",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "norte_china",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Norte da China",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "norte_congo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Norte da república Democrática do Congo",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "norte_egito",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Norte do Egito",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "norte_franca",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Norte da França",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "norte_inglaterra",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Norte da Inglaterra",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ocidental_australia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ocidental da Austrália",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "oeste_africa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Oeste da África do Sul",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "oeste_congo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Oeste da república Democrática do Congo",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "oeste_cuba",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Oeste de Cuba",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "oeste_egito",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Oeste do Egito",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "oeste_eua",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Oeste dos EUA",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "oeste_franca",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Oeste da França",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "oeste_inglaterra",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Oeste da Inglaterra",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "oriental_australia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Oriental da Austrália",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "oriental_china",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Oriental da China",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "republica_democratica_congo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "República Democrática do Congo",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "saudacoes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Inicio",
+          "synonyms": [
+            "Boa noite ",
+            "Boa tarde ",
+            "Bom dia ",
+            "Começo ",
+            "Oi",
+            "Olá "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sudeste_brasil",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sudeste do Brasil",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sudoeste_china",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sudoeste da China",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sul_africa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sul da África do Sul",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sul_brasil",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sul do Brasil",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sul_congo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sul da república Democrática do Congo",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sul_egito",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sul do Egito",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sul_eua",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sul dos EUA",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sul_franca",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sul da França",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sul_inglaterra",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sul da Inglaterra",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Saudações ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! Sou o assistente da Localiza&Auxilia. Em que posso te auxiliar?"
+              },
+              {
+                "text": "Olá! Somos da Localiza&Auxilia. Em que podemos te ajudar?"
+              },
+              {
+                "text": "Seja bem vindo ao grupo da Localiza&Auxilia! No que podemos te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#saudacoes || @saudacoes",
+      "dialog_node": "Bem-vindo",
+      "previous_sibling": "node_4_1685058582497"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimento ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O grupo Localiza&Auxilia agradece pelo seu contato!\n\nPor favor nos avalie! \n\n1 - Muito ruim \n2 - Ruim \n3 - Satisfatório \n4 - Bom \n5 - Muito bom "
+              },
+              {
+                "text": "A Localiza&Auxilia agradece!\n\nPor favor nos avalie! \n\n1 - Muito ruim \n2 - Ruim \n3 - Satisfatório \n4 - Bom \n5 - Muito bom"
+              },
+              {
+                "text": "Agradecemos o contato!\n\nPor favor nos avalie! \n\n1 - Muito ruim \n2 - Ruim \n3 - Satisfatório \n4 - Bom \n5 - Muito bom"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#agradecimento",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_9_1685056548608",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1685056723792",
+      "context": {
+        "nome_usuario": "@nome_usuario"
+      },
+      "conditions": "@nome_usuario",
+      "event_name": "input",
+      "dialog_node": "handler_10_1685056723823"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual é o seu nome?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1685056723792",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1685056723823",
+      "previous_sibling": "handler_10_1685056723823"
+    },
+    {
+      "type": "standard",
+      "title": "Região Oeste dos EUA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oeste: Florestas temperadas, Deserto\n\nBioma Florestas temperadas\n\nTipo de plantio: Nas florestas temperadas da região Oeste dos Estados Unidos, o plantio de culturas agrícolas não é o foco principal, devido à predominância da vegetação florestal. No entanto, em algumas áreas abertas e clareiras dentro das florestas, é possível realizar o cultivo de algumas culturas agrícolas. \n\nTipos de alimentos: As culturas agrícolas comuns nessas áreas incluem produtos como maçãs, peras, cerejas, ameixas, nozes, mirtilos e framboesas. Além disso, vegetais como milho, abóbora, batata e feijão podem ser cultivados em pequena escala. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada nas florestas temperadas da região Oeste dos Estados Unidos varia dependendo das condições locais e das áreas disponíveis para o plantio. Em geral, a rotação de culturas, o manejo florestal sustentável e a utilização de práticas de conservação do solo são importantes para garantir a produtividade e a preservação do ecossistema florestal. \n\nCentros comerciais próximos: Os centros comerciais mais próximos das florestas temperadas na região Oeste dos Estados Unidos variam dependendo da localização específica. Geralmente, existem mercados locais, cooperativas agrícolas e feiras onde os produtores agrícolas podem vender seus produtos diretamente aos consumidores. Além disso, cidades maiores nas proximidades, como Portland, Seattle e San Francisco, podem oferecer opções adicionais de comércio e processamento de alimentos.\n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para as florestas temperadas dependem da infraestrutura local e da distância até os centros comerciais. Geralmente, os produtores utilizam veículos motorizados, como caminhões, para transportar seus produtos agrícolas. No entanto, em áreas mais remotas, pode ser necessário o uso de transporte ferroviário ou fluvial, dependendo da disponibilidade dessas opções.\n\nBioma Deserto\n\nTipo de plantio: Nas áreas de deserto do Oeste dos Estados Unidos, o plantio é desafiador devido à falta de água e às condições extremas. No entanto, algumas práticas agrícolas são adotadas, como o cultivo irrigado em oásis, o uso de estufas e a implementação de sistemas de cultivo hidropônico. \n\nTipos de alimentos: Os alimentos cultivados nessas áreas de deserto podem incluir produtos como frutas cítricas (como laranjas, limões e tangerinas), uvas, azeitonas, amêndoas, figos e algumas variedades de vegetais, como tomates, pimentões e pepinos. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada em áreas de deserto depende da disponibilidade de recursos hídricos. A irrigação é crucial nessas regiões, e métodos eficientes, como irrigação por gotejamento e uso de água reciclada, podem ser empregados para maximizar o uso da água disponível. Além disso, o uso de técnicas de cultivo protegido, como estufas, pode ajudar a controlar as temperaturas extremas e reduzir a perda de água por evaporação. \n\nCentros comerciais próximos: Os centros comerciais mais próximos das áreas de deserto no Oeste dos Estados Unidos podem variar dependendo da localização específica. Geralmente, existem cidades e vilarejos próximos às áreas agrícolas, onde os produtores podem comercializar seus produtos. Além disso, existem mercados locais, feiras e cooperativas agrícolas que oferecem oportunidades de venda direta aos consumidores. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para as áreas de deserto dependem da infraestrutura local e da distância até os centros comerciais. Em geral, os produtores utilizam caminhões e veículos motorizados para transportar seus produtos agrícolas. Além disso, em algumas regiões, podem ser utilizados sistemas de transporte ferroviário para mover grandes volumes de produtos.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685111861154",
+      "conditions": "@oeste_eua",
+      "dialog_node": "node_10_1685138212854"
+    },
+    {
+      "type": "standard",
+      "title": "Região Centro-Oeste dos EUA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Centro-Oeste: Pradarias, Florestas temperadas\n\nBioma Pradarias\n\nTipo de plantio: Nas pradarias da região Centro-Oeste dos Estados Unidos, o plantio predominante é voltado para culturas de grãos, principalmente milho e trigo. Essas culturas são adaptadas às condições climáticas e ao solo fértil das pradarias. \n\nTipos de alimentos: Os principais alimentos cultivados nessas áreas incluem milho, trigo, aveia, cevada e outros grãos. Esses grãos são utilizados para a produção de alimentos como pão, cereais, massas, ração animal e outros produtos derivados de grãos. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada nas pradarias depende das condições locais e das culturas específicas. O plantio direto, que envolve a semeadura das culturas diretamente no solo sem a necessidade de aração prévia, é amplamente utilizado para preservar a estrutura do solo e minimizar a erosão. Além disso, a rotação de culturas é uma prática comum para manter a fertilidade do solo e reduzir o risco de doenças e pragas.\n\nCentros comerciais próximos: Os centros comerciais mais próximos das pradarias na região Centro-Oeste dos Estados Unidos podem variar dependendo da localização específica. Geralmente, existem cidades e vilarejos agrícolas onde os agricultores podem comercializar seus produtos. Além disso, existem mercados regionais, cooperativas agrícolas e terminais de grãos onde os grãos são comprados, processados e distribuídos para uso alimentar ou para exportação. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados nas pradarias dependem da infraestrutura local e da distância até os centros comerciais e terminais de grãos. Geralmente, os agricultores utilizam caminhões e veículos motorizados para transportar seus grãos para os locais de processamento ou armazenamento.\n\nBioma Florestas temperadas\n\nTipo de plantio: Nas florestas temperadas da região Centro-Oeste dos Estados Unidos, o plantio agrícola é geralmente limitado, pois a vegetação florestal é predominante. No entanto, em algumas áreas abertas ou desmatadas, podem ser cultivadas culturas agrícolas como milho, soja, trigo, cevada, aveia, feijão, legumes e hortaliças. \n\nTipos de alimentos: Os principais alimentos cultivados nessas áreas incluem milho, soja, trigo e outros grãos. O milho e a soja são particularmente importantes na região Centro-Oeste dos Estados Unidos, onde são utilizados como ração animal, para a produção de óleos vegetais, biocombustíveis e outros produtos. Além disso, as hortaliças, legumes e frutas também podem ser cultivados em menor escala. \n\nTécnica de plantação mais adequada: As técnicas de plantação mais adequadas variam dependendo das culturas específicas. No caso do milho e da soja, a técnica de plantio mais comum é a semeadura direta, que consiste em plantar as sementes diretamente no solo sem arar previamente. Isso ajuda a preservar a estrutura do solo e reduzir a erosão. Além disso, a rotação de culturas é amplamente utilizada para melhorar a fertilidade do solo e reduzir o risco de doenças e pragas. \n\nCentros comerciais próximos: Os centros comerciais mais próximos das florestas temperadas na região Centro-Oeste dos Estados Unidos variam dependendo da localização específica. Geralmente, existem cidades e vilarejos agrícolas onde os produtores podem comercializar seus produtos diretamente aos consumidores ou a empresas de processamento. Além disso, existem terminais de grãos, mercados regionais e cooperativas agrícolas onde os grãos e outros produtos agrícolas são comprados, processados e distribuídos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região Centro-Oeste dos Estados Unidos dependem da infraestrutura local e da distância até os centros comerciais e terminais de grãos. Geralmente, os agricultores utilizam caminhões e veículos motorizados para transportar seus produtos agrícolas até os locais de processamento ou armazenamento. Além disso, a existência de redes ferroviárias eficientes na região permite o transporte de grandes volumes de grãos por meio de trens.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685111861154",
+      "conditions": "@centro_oeste_eua",
+      "dialog_node": "node_10_1685138215473",
+      "previous_sibling": "node_10_1685138212854"
+    },
+    {
+      "type": "standard",
+      "title": "Região Sul da África do Sul",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sul: Fynbos, Litoral\n\nBioma Fynbos\n\nTipo de plantio: O plantio no bioma Fynbos geralmente se concentra na agricultura sustentável, incluindo o cultivo de plantas nativas adaptadas às condições específicas desse ecossistema. Alguns exemplos de plantas cultivadas são buchu, rooibos (chá vermelho) e algumas espécies de proteas, como a Protea cynaroides. \n\nAlimentos provenientes dos plantios: Os principais alimentos cultivados nesse bioma são o rooibos, uma planta utilizada para fazer chá, e o buchu, uma planta aromática que é utilizada na culinária e na produção de óleos essenciais. Esses alimentos são bastante valorizados pela sua singularidade e propriedades medicinais. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada no bioma Fynbos envolve práticas de manejo sustentável, como o uso responsável da água, o controle de ervas daninhas e a conservação do solo. A diversidade de espécies nesse bioma requer um cuidado especial para evitar a perda de biodiversidade e promover a preservação dos habitats naturais. \n\nCentros comerciais próximos: Na região sul da África do Sul, há centros comerciais importantes, como a Cidade do Cabo e outras cidades próximas, que oferecem mercados, lojas e estabelecimentos comerciais onde os produtos cultivados no bioma Fynbos podem ser comercializados e distribuídos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para essa região incluem o transporte rodoviário e marítimo. A região possui uma boa infraestrutura rodoviária, facilitando o transporte dos produtos agrícolas para os centros comerciais. Além disso, o transporte marítimo pode ser utilizado para exportar os produtos para outros mercados.\n\n\nBioma Litoral\n\nTipo de plantio: No bioma litoral, é comum o cultivo de plantas adaptadas às condições costeiras, como vegetação halófita, que são plantas tolerantes ao sal. Alguns exemplos de cultivos incluem o agrião d'água (Watercress), espinafre da Nova Zelândia (New Zealand spinach) e algumas variedades de ervas aromáticas, como a salicórnia (samphire). \n\nAlimentos provenientes dos plantios: Os alimentos provenientes dos plantios no bioma litoral podem incluir vegetais folhosos, ervas e outras plantas adaptadas às condições costeiras. O agrião d'água e o espinafre da Nova Zelândia são exemplos de vegetais folhosos ricos em nutrientes que podem ser cultivados nesse ambiente. Além disso, a salicórnia, também conhecida como espargos-do-mar, é uma planta salgada que pode ser utilizada como acompanhamento ou ingrediente em pratos culinários. \n\nTécnica de plantação mais adequada: Devido à proximidade com o oceano e a presença de solo arenoso, a técnica de plantação mais adequada no bioma litoral deve levar em consideração a salinidade e a drenagem do solo. A irrigação com água doce pode ser necessária para diluir a salinidade do solo. Além disso, é importante adotar práticas de manejo sustentável para preservar a biodiversidade costeira e evitar a erosão do solo. \n\nCentros comerciais próximos: Na região sul da África do Sul, existem diversos centros comerciais e mercados locais que oferecem uma variedade de produtos agrícolas, incluindo alimentos cultivados no bioma litoral. Cidades como Cidade do Cabo e Port Elizabeth são exemplos de centros comerciais próximos onde os produtos podem ser comercializados e distribuídos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região do bioma litoral incluem o transporte rodoviário e marítimo. A região possui uma boa infraestrutura rodoviária, permitindo o transporte eficiente dos produtos agrícolas para os centros comerciais. Além disso, o transporte marítimo pode ser utilizado para exportar os produtos para outros mercados.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1685138799413",
+      "conditions": "@sul_africa",
+      "dialog_node": "node_10_1685139374490",
+      "previous_sibling": "node_6_1685139371186"
+    },
+    {
+      "type": "standard",
+      "title": "Região Oeste da África do Sul ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oeste: Karoo, Desertos\n\nBioma Karoo\n\nTipo de plantio: No bioma Karoo, o tipo de plantio mais comum é a agricultura de sequeiro, que envolve o cultivo de culturas resistentes à seca. Algumas culturas adaptadas a essas condições incluem cereais como milho, trigo e cevada, além de leguminosas como feijão e ervilha. Também são cultivados produtos hortícolas resistentes à seca, como batatas, cenouras e cebolas. \n\nAlimentos provenientes dos plantios: Os plantios no bioma Karoo fornecem uma variedade de alimentos, como cereais, leguminosas e produtos hortícolas resistentes à seca. Esses alimentos são utilizados para consumo humano, ração animal e também podem ser processados em produtos derivados, como farinha, óleos vegetais e alimentos enlatados. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada no bioma Karoo deve levar em consideração a escassez de água e as condições de seca. É importante utilizar práticas de conservação de água, como a captação de água da chuva e a utilização de sistemas de irrigação eficientes. O cultivo em sulcos ou em canteiros elevados pode ajudar a preservar a umidade do solo. Além disso, a seleção de variedades de plantas resistentes à seca e a rotação de culturas são estratégias importantes para maximizar a produção. \n\nCentros comerciais próximos: Na região oeste da África do Sul, existem centros comerciais e mercados locais onde os produtos agrícolas podem ser comercializados. Algumas cidades importantes da região incluem Beaufort West, Graaff-Reinet e Laingsburg, que oferecem oportunidades para a venda e distribuição dos produtos agrícolas. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região do bioma Karoo incluem o transporte rodoviário e ferroviário. A região possui uma rede de estradas e linhas ferroviárias que facilitam o transporte de produtos agrícolas para os centros comerciais e outros mercados. Além disso, o transporte marítimo também pode ser utilizado para a exportação de produtos agrícolas, aproveitando a proximidade da região com os portos marítimos.\n\n\nBioma Desertos\n\nTipo de plantio: No bioma dos desertos da região oeste da África do Sul, o plantio mais comum é o cultivo de plantas adaptadas a ambientes áridos. Isso inclui culturas resistentes à seca, como cactos e suculentas, além de algumas árvores e arbustos adaptados ao clima desértico. \n\nAlimentos provenientes dos plantios: As opções de alimentos provenientes dos plantios em desertos são limitadas. No entanto, algumas suculentas e cactos podem ser utilizados como fonte de alimento para seres humanos e animais. Além disso, em algumas áreas, podem ser cultivados produtos agrícolas específicos, como melões, tâmaras e figos, que são mais tolerantes à seca. \n\nTécnica de plantação mais adequada: Devido às condições áridas, a técnica de plantação mais adequada nos desertos é o uso de técnicas de conservação de água. Isso inclui a utilização de sistemas de irrigação eficientes, como gotejamento ou irrigação por gotejamento subterrâneo, que minimizam a perda de água por evaporação. A proteção contra o vento também é importante para evitar a desidratação das plantas. \n\nCentros comerciais próximos: Na região oeste da África do Sul, cidades como Upington, Springbok e Alexander Bay podem servir como centros comerciais para a comercialização de produtos agrícolas provenientes dos desertos. Essas cidades possuem infraestrutura comercial e mercados onde os produtos podem ser vendidos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região do bioma dos desertos incluem o transporte rodoviário e, em alguns casos, o transporte aéreo. A região possui uma rede de estradas que permite o transporte de produtos agrícolas para os centros comerciais e outros mercados. Em áreas mais remotas, o transporte aéreo pode ser necessário para acessar os centros urbanos mais próximos.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1685138799413",
+      "conditions": "@oeste_africa",
+      "dialog_node": "node_10_1685139380759",
+      "previous_sibling": "node_3_1685139377520"
+    },
+    {
+      "type": "standard",
+      "title": "Região Leste do Egito ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Leste: Delta do Nilo\nBioma Delta do Nilo\n\nTipo de plantio: No bioma Delta do Nilo, o plantio agrícola é diversificado, com uma variedade de culturas sendo cultivadas. Os principais cultivos incluem arroz, milho, trigo, cevada, algodão, legumes, frutas cítricas, como laranja e limão, além de vegetais como tomate, cebola e batata. \n\nTipos de alimentos: Os alimentos cultivados no Delta do Nilo incluem arroz, milho, trigo, cevada, algodão, legumes, frutas cítricas, vegetais e outras culturas sazonais. Além disso, a pesca é uma atividade importante na região, proporcionando uma variedade de peixes e frutos do mar como alimentos. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada no Delta do Nilo é a irrigação por inundação. As águas do rio Nilo são desviadas para canais e distribuídas por meio de valas e sistemas de irrigação para inundar os campos agrícolas, fornecendo água e nutrientes às plantas. Além disso, também são utilizados sistemas de irrigação por aspersão e gotejamento para culturas específicas. A fertilização do solo e o controle de pragas são práticas comuns na agricultura do Delta do Nilo. \n\nCentros comerciais próximos: Os centros comerciais próximos ao Delta do Nilo incluem cidades como Cairo, Alexandria e outras cidades menores ao longo do delta. Essas cidades possuem mercados locais, cooperativas agrícolas, processadoras de alimentos e centros de distribuição, onde os produtos agrícolas são comercializados e distribuídos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região do Delta do Nilo incluem barcos e embarcações fluviais, devido à presença do rio Nilo e dos canais de irrigação. O transporte fluvial é amplamente utilizado para o transporte de produtos agrícolas, especialmente em áreas próximas aos canais e ao rio. Além disso, o transporte rodoviário também é importante para conectar as áreas agrícolas do delta com os centros comerciais e as cidades próximas.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685138802430",
+      "conditions": "@leste_egito",
+      "dialog_node": "node_10_1685139567607",
+      "previous_sibling": "node_9_1685139564295"
+    },
+    {
+      "type": "standard",
+      "title": "Região Meridional da Austrália ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Meridional: Floresta temperada, Matagal e arbustos\n\nBioma floresta temperada\n\nTipo de plantio: Na floresta temperada da região meridional da Austrália, são cultivadas diversas culturas agrícolas, incluindo cereais, legumes, frutas e vegetais. Além disso, também é comum o plantio de árvores para produção de madeira. \n\nTipos de alimentos: Os alimentos cultivados nessa região podem incluir trigo, cevada, aveia e outros cereais. Legumes como batatas, cenouras, cebolas e ervilhas são comuns. Frutas como maçãs, peras e cerejas também são cultivadas, bem como vegetais folhosos como alface e espinafre. \n\nTécnica de plantação mais adequada: As técnicas de plantação mais adequadas na floresta temperada da região meridional da Austrália incluem a preparação adequada do solo, o manejo sustentável dos nutrientes, a rotação de culturas e o controle de pragas e doenças. A irrigação pode ser necessária em algumas áreas, especialmente durante períodos de seca. \n\nCentros comerciais próximos: Os centros comerciais mais próximos da região da floresta temperada da Austrália Meridional podem variar dependendo da localização específica. Geralmente, existem cidades e vilarejos onde os produtores podem comercializar seus produtos diretamente aos consumidores em mercados locais, feiras e supermercados. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região da floresta temperada da Austrália Meridional dependem da infraestrutura local, da distância até os centros comerciais e da natureza dos produtos agrícolas. Geralmente, os agricultores utilizam caminhões e veículos motorizados para transportar seus produtos agrícolas para os locais de venda, processamento ou armazenamento. Em algumas áreas mais remotas, pode ser necessário o uso de transporte ferroviário ou marítimo para alcançar centros comerciais distantes.\n\nBioma Matagal e arbustos\n\nTipo de plantio: No bioma de matagal e arbustos da região meridional da Austrália, são cultivadas principalmente plantas adaptadas a ambientes áridos e semiáridos. Isso inclui culturas como trigo duro, cevada, legumes resistentes à seca (por exemplo, lentilhas) e plantas nativas comestíveis, como a Acacia coriacea (gundabluey) e a Enchylaena tomentosa (ruby saltbush). \n\nTipos de alimentos: Os alimentos cultivados nessa região podem incluir trigo duro, cevada e lentilhas, que são utilizados na produção de grãos. Além disso, algumas plantas nativas comestíveis, como gundabluey e ruby saltbush, podem ser colhidas e utilizadas na alimentação. \n\nTécnica de plantação mais adequada: As técnicas de plantação mais adequadas no bioma de matagal e arbustos da região meridional da Austrália devem levar em consideração a escassez de água e os solos pobres em nutrientes. A conservação de água é essencial, assim como o uso de técnicas de manejo do solo, como o cultivo mínimo e a cobertura morta, para preservar a umidade e melhorar a qualidade do solo. \n\nCentros comerciais próximos: Os centros comerciais mais próximos da região de matagal e arbustos da Austrália Meridional variam dependendo da localização específica. Geralmente, existem cidades e vilarejos onde os produtores podem comercializar seus produtos diretamente aos consumidores em mercados locais e feiras. Além disso, existem distribuidores regionais e empresas de processamento de alimentos que podem adquirir esses produtos para venda e distribuição em uma escala maior. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região de matagal e arbustos da Austrália Meridional dependem da infraestrutura local, da distância até os centros comerciais e da natureza dos produtos agrícolas. Geralmente, os agricultores utilizam caminhões e veículos motorizados para transportar seus produtos agrícolas para os locais de venda, processamento ou armazenamento. Em áreas mais remotas, pode ser necessário o uso de transporte ferroviário ou marítimo para alcançar centros comerciais mais distantes.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1685140260967",
+      "conditions": "@meridional_australia",
+      "dialog_node": "node_10_1685140562831",
+      "previous_sibling": "node_3_1685140560342"
+    },
+    {
+      "type": "standard",
+      "title": "Brasil",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em qual região do Brasil você vive?\n\n- Norte do Brasil \n- Nordeste do Brasil \n- Centro Oeste do Brasil \n- Sudeste do Brasil \n- Sul do Brasil \n- Não sei "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1685058582497",
+      "conditions": "@brasil",
+      "dialog_node": "node_1_1685111224845"
+    },
+    {
+      "type": "standard",
+      "title": "Região Sul da França",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sul: Mediterrâneo, Alpino e Litoral/Costeiros.\n\n\nBioma Mediterrâneo\n\nTipo de plantio: Nas áreas de bioma mediterrâneo, são cultivadas principalmente culturas adaptadas ao clima quente e seco, como oliveiras, vinhas e plantas de frutas cítricas, como laranjas e limões.\n\nAlimentos provenientes dos plantios: As oliveiras são cultivadas principalmente pela produção de azeite de oliva, que é amplamente utilizado na culinária mediterrânea. As vinhas são cultivadas para a produção de vinhos, e a região sul da França é conhecida por seus vinhos de alta qualidade. As frutas cítricas são utilizadas para consumo in natura, sucos e na produção de sobremesas. Os cereais são processados em alimentos como pães, massas e cereais matinais. \n\nTécnica de plantação mais adequada: Devido ao clima quente e seco, as técnicas de irrigação eficientes são essenciais para o cultivo nas áreas de bioma mediterrâneo. A utilização de sistemas de irrigação por gotejamento ou irrigação localizada ajuda a conservar a água e atender às necessidades das plantas. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região incluem caminhões e veículos agrícolas para o transporte dos produtos agrícolas para os centros comerciais e mercados locais. A região também possui uma boa rede de estradas e ferrovias, facilitando o transporte de produtos agrícolas para outras regiões e centros urbanos.\n\nBioma Alpino\n\nTipo de plantio: Nas áreas de bioma alpino, o cultivo é desafiador devido às condições climáticas adversas. No entanto, algumas culturas adaptadas à altitude e ao clima frio são cultivadas, como batatas, cereais de inverno (como trigo, centeio e cevada), ervas alpinas e algumas frutas de clima frio, como maçãs e peras. \n\nAlimentos provenientes dos plantios: As batatas são uma cultura importante nas áreas alpinas e são utilizadas em uma variedade de pratos, desde purês até sopas e guisados. Os cereais de inverno são usados para a produção de farinha e são essenciais na fabricação de pães e massas. As ervas alpinas são usadas como tempero em pratos locais e podem incluir ervas como tomilho, manjericão e alecrim.\n\nTécnica de plantação mais adequada: Devido às condições alpinas, as técnicas de plantação devem levar em consideração a altitude, o clima frio e a curta temporada de crescimento. O uso de estufas e abrigos agrícolas é comum para proteger as culturas das baixas temperaturas e das condições climáticas extremas.\n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região alpina incluem caminhões e veículos adaptados para enfrentar as estradas montanhosas e sinuosas. Além disso, sistemas de teleféricos e funiculares são comuns para o transporte de cargas e pessoas em áreas de difícil acesso.\n\nBioma Litoral/Costeiros\n\nTipo de plantio: Nas áreas costeiras, é comum o cultivo de culturas adaptadas ao clima mediterrâneo e às condições costeiras. Alguns exemplos de culturas encontradas na região incluem oliveiras, vinhas, frutas cítricas (como laranjas e limões), figueiras, lavanda e ervas aromáticas (como alecrim, tomilho e manjericão). \n\nAlimentos provenientes dos plantios: A oliveira é uma cultura importante na região costeira e suas azeitonas são utilizadas para a produção de azeite de alta qualidade, muito apreciado na culinária local. As vinhas são cultivadas para a produção de vinhos, sendo os vinhos do sul da França mundialmente reconhecidos.\n\nTécnica de plantação mais adequada: Devido às condições costeiras, as técnicas de plantação devem levar em consideração a salinidade do solo e os ventos marítimos. O manejo adequado do solo e a irrigação controlada são importantes para garantir o crescimento saudável das plantas. Além disso, a proteção contra os ventos marítimos e a utilização de técnicas de controle de pragas e doenças são essenciais. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região costeira incluem caminhões refrigerados para o transporte dos alimentos perecíveis, como frutas e vegetais.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1685141416034",
+      "conditions": "@sul_franca",
+      "dialog_node": "node_1_1685141721419",
+      "previous_sibling": "node_4_1685141718499"
+    },
+    {
+      "type": "standard",
+      "title": "Informações/contato ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você pode pedir por mais informações sobre o seu país ou tirar dúvidas referente algo, pelo nosso site localiza&auxilia.com.br ou pelo nosso telefone +55 11 3385 8010. \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#informacoes_contato",
+      "dialog_node": "node_1_1685196071850",
+      "previous_sibling": "Em outros casos"
+    },
+    {
+      "type": "standard",
+      "title": "Região Norte do Brasil ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Norte: Floresta Amazônica, Cerrado\n\nBioma: Floresta Amazônica \n\nTipo de plantio: Na floresta amazônica, o tipo de plantio mais comum é o agroflorestal, que envolve a combinação de cultivos agrícolas e árvores nativas em um mesmo sistema de cultivo. \n\nTipos de alimentos desses plantios: Os plantios na floresta amazônica podem incluir uma variedade de alimentos, como frutas tropicais, como açaí, cupuaçu, pupunha e castanha-do-brasil, além de culturas como mandioca, milho, feijão, entre outros. \n\nTécnica de plantação mais adequada: Uma técnica de plantação comum na região amazônica é o sistema de roça ou \"cultivo itinerante\". Nesse sistema, as árvores e a vegetação nativa são derrubadas e queimadas para a abertura de clareiras onde são cultivadas as plantações. Após alguns anos de cultivo, a área é deixada em pousio para se regenerar naturalmente.\n\nCentros comerciais próximos: Os centros comerciais mais próximos da floresta amazônica estão geralmente localizados em cidades de médio e grande porte, como Manaus, Belém e Porto Velho. Essas cidades possuem infraestrutura comercial mais desenvolvida e oferecem acesso a mercados e serviços. \n\nMeios de transporte mais adequados: Os meios de transporte mais comuns na região amazônica são os fluviais e terrestres. Devido à extensa rede de rios na região, o transporte fluvial, como barcos e balsas, é amplamente utilizado para o deslocamento de pessoas e mercadorias. Além disso, as estradas são importantes para o transporte terrestre, embora muitas vezes sejam precárias e sujeitas a condições climáticas desfavoráveis durante certas épocas do ano.\n\n\nBioma: Cerrado\n\nTipo de plantio: No cerrado, são cultivadas principalmente culturas agrícolas como soja, milho, feijão, arroz, algodão, além de frutas como laranja, limão, abacaxi e maracujá. \n\nTipos de alimentos desses plantios: Os alimentos cultivados no cerrado incluem uma variedade de grãos, como soja, milho e feijão, que são importantes para a produção de alimentos e ração animal. Além disso, há também o cultivo de frutas cítricas, como laranjas e limões, e frutas tropicais, como abacaxi e maracujá. \n\nTécnica de plantação mais adequada: No cerrado, é comum o uso da agricultura mecanizada, com o uso de maquinário agrícola para o plantio das culturas. Além disso, técnicas de conservação do solo, como o terraceamento, são utilizadas para minimizar a erosão e melhorar a retenção de água. \n\nCentros comerciais próximos: Na região do cerrado, existem diversos centros comerciais próximos, como Brasília, Goiânia, Cuiabá e Campo Grande. Essas cidades são importantes polos comerciais e oferecem acesso a mercados regionais e serviços. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados no cerrado incluem o transporte rodoviário e ferroviário. A região possui uma malha rodoviária bem desenvolvida, permitindo o transporte eficiente de mercadorias e pessoas. Além disso, algumas regiões do cerrado contam com linhas ferroviárias que auxiliam no transporte de cargas a longa distância.\n\n\n\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1685111224845",
+      "conditions": "@norte_brasil",
+      "dialog_node": "node_2_1685112467100"
+    },
+    {
+      "type": "standard",
+      "title": "Região Nordeste do Brasil ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\nNordeste: Caatinga, Mata Atlântica\n\nBioma: Mata Atlântica \n\nTipo de plantio: Na região da Mata Atlântica no Nordeste brasileiro, são realizados diferentes tipos de plantios, incluindo cultivos agrícolas diversificados, como frutas tropicais, hortaliças, cereais e legumes. Além disso, são encontradas plantações de palmito e produtos florestais não madeireiros. \nTipos de alimentos desses plantios: Os plantios na Mata Atlântica do Nordeste podem fornecer uma variedade de alimentos, como frutas tropicais (manga, abacaxi, caju), hortaliças (tomate, pimentão, mandioca), cereais (milho, arroz) e legumes (feijão, ervilha). Também são produzidos palmito e outros produtos florestais não madeireiros, como mel e óleos essenciais. \n\nTécnica de plantação mais adequada: Na Mata Atlântica do Nordeste, técnicas de plantio diversificado e agroflorestal são mais adequadas. Isso envolve a combinação de diferentes culturas em um mesmo sistema de cultivo, com a inclusão de espécies agrícolas e florestais. Essa abordagem contribui para a preservação da biodiversidade e para a sustentabilidade dos sistemas produtivos. \n\nCentros comerciais próximos: Os centros comerciais próximos da região da Mata Atlântica no Nordeste brasileiro incluem cidades como Salvador, Recife, Natal e Fortaleza. Essas cidades são importantes polos comerciais e oferecem acesso a mercados regionais e serviços. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados na região da Mata Atlântica do Nordeste são o transporte rodoviário e o transporte marítimo. A região possui uma infraestrutura rodoviária bem desenvolvida, permitindo o transporte eficiente de mercadorias e pessoas por meio de estradas. Além disso, o transporte marítimo é relevante para o comércio de produtos entre diferentes regiões costeiras e para a exportação de produtos agrícolas.\n\n\nBioma Caatinga:\n\nTipo de plantio: Na região da Caatinga, são comuns os cultivos de plantas adaptadas às condições semiáridas, como o milho, feijão, mandioca, sisal e palma forrageira. Além disso, são encontrados plantios de frutas nativas da região, como o umbu e o maracujá da Caatinga. \n\nTipos de alimentos desses plantios: Os plantios na Caatinga fornecem alimentos como milho, feijão e mandioca, que são componentes importantes na alimentação local. O milho e o feijão são utilizados na preparação de diversas receitas tradicionais da região, enquanto a mandioca é utilizada para a produção de farinha, tapioca e outros derivados. A palma forrageira é utilizada como alimento para o gado na pecuária da região. As frutas nativas, como o umbu e o maracujá da Caatinga, também são consumidas tanto in natura como na produção de sucos e geleias. \n\nTécnica de plantação mais adequada: Na Caatinga, as técnicas de plantio mais adequadas envolvem o manejo da água e do solo. Devido à escassez de água na região, são utilizadas técnicas de captação e armazenamento de água, como a construção de cisternas e barragens. Além disso, práticas de conservação do solo, como a construção de terraços e a utilização de cobertura vegetal, são importantes para minimizar a erosão e melhorar a retenção de água no solo. \nCentros comerciais próximos: Os centros comerciais mais próximos da região da Caatinga incluem cidades como Salvador, Recife, Fortaleza, Juazeiro do Norte e Petrolina. Essas cidades são importantes polos comerciais na região nordeste do Brasil, oferecendo acesso a mercados regionais e serviços. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados na região da Caatinga são o transporte rodoviário e o transporte ferroviário. A região possui uma rede de estradas e ferrovias que conectam as principais cidades e permitem o transporte eficiente de mercadorias e pessoas. Além disso, o transporte aéreo é utilizado para conectar as áreas mais remotas da região, garantindo o acesso a serviços e mercados mais distantes.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1685111224845",
+      "conditions": "@nordeste_brasil",
+      "dialog_node": "node_2_1685113039190",
+      "previous_sibling": "node_2_1685112467100"
+    },
+    {
+      "type": "standard",
+      "title": "Região Sul do Brasil ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sul: Mata Atlântica, Pampas\n\nBioma: Mata Atlântica \n\nTipo de plantio: Na Mata Atlântica, o plantio mais adequado é o sistema agroflorestal, que combina o cultivo de espécies agrícolas com a preservação da vegetação nativa. Também são comuns cultivos de frutas tropicais, como banana, abacaxi e cacau, assim como plantações de palmito. \n\nTipos de alimentos desses plantios: Os plantios na Mata Atlântica podem incluir uma variedade de alimentos, como frutas tropicais, hortaliças, cereais, legumes e ervas. Além disso, produtos derivados da vegetação nativa, como palmito e produtos florestais não madeireiros, também são obtidos nesse bioma. \n\nTécnica de plantação mais adequada: Na Mata Atlântica, a técnica de plantação mais adequada é o plantio diversificado em sistemas agroflorestais, onde diferentes culturas são intercaladas com árvores nativas. Essa técnica ajuda a conservar a biodiversidade local, oferece maior resiliência aos impactos climáticos e contribui para a preservação do ecossistema. \n\nCentros comerciais próximos: Na região da Mata Atlântica, existem diversos centros comerciais próximos, como São Paulo, Rio de Janeiro, Curitiba e Porto Alegre. Essas cidades são importantes polos comerciais e oferecem acesso a mercados regionais e serviços. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados na região da Mata Atlântica são o transporte rodoviário e ferroviário. A região possui uma boa infraestrutura rodoviária e ferroviária, permitindo o transporte eficiente de mercadorias e pessoas. Além disso, há também o transporte marítimo em áreas costeiras, que pode ser utilizado para o comércio de produtos entre diferentes regiões de produtos entre diferentes regiões.\n\n\nBioma: Pampas \n\nTipo de plantio: No bioma Pampas, o plantio predominante é o de pastagens, especialmente para a pecuária extensiva de bovinos e ovinos. A região é conhecida pelas extensas áreas de campos naturais, onde ocorre o desenvolvimento de gramíneas adaptadas às condições do Pampas. \n\nTipos de alimentos desses plantios: O principal produto agrícola do Pampas é a produção de carne, tanto bovina quanto ovina. A região é reconhecida pela criação de gado de corte de alta qualidade, como a raça Angus. Além disso, também são produzidos laticínios, como leite e queijo, e cereais como trigo e cevada. \n\nTécnica de plantação mais adequada: No Pampas, a técnica de plantio mais adequada é o manejo de pastagens, que envolve a seleção e o cuidado das espécies de gramíneas nativas adaptadas à região. O manejo correto das pastagens, incluindo o controle do pastejo, a rotação das áreas e o cuidado com a fertilidade do solo, contribui para a produtividade animal e a sustentabilidade do sistema. \n\nCentros comerciais próximos: Os centros comerciais mais próximos do Pampas estão localizados em cidades como Porto Alegre, Caxias do Sul, Santa Maria e Pelotas. Essas cidades são importantes polos comerciais na região sul do Brasil e oferecem acesso a mercados, serviços e infraestrutura para o comércio de produtos agrícolas e pecuários. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados na região do Pampas são o transporte rodoviário e ferroviário. A região possui uma boa malha rodoviária e ferroviária, permitindo o transporte eficiente de mercadorias e animais. Além disso, o transporte aéreo também é utilizado para o deslocamento de pessoas e para o transporte de produtos mais sensíveis ou de maior valor agregado.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1685111224845",
+      "conditions": "@sul_brasil",
+      "dialog_node": "node_3_1685113234813",
+      "previous_sibling": "node_8_1685113200303"
+    },
+    {
+      "type": "standard",
+      "title": "Região Sudeste do Brasil ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sudeste: Mata Atlântica, Cerrado\n\nBioma: Mata Atlântica \n\nTipo de plantio: Na região da Mata Atlântica no Sudeste brasileiro, são realizados diversos tipos de plantio, incluindo cultivos agrícolas diversificados, como frutas tropicais, hortaliças, cereais e legumes. Além disso, são encontradas plantações de café, cana-de-açúcar e produtos florestais não madeireiros. \n\nTipos de alimentos desses plantios: Os plantios na Mata Atlântica do Sudeste podem fornecer uma variedade de alimentos, como frutas tropicais (banana, abacaxi, goiaba), hortaliças (alface, tomate, cenoura), cereais (milho, arroz) e legumes (feijão, ervilha). Além disso, a região é conhecida pela produção de café, que é uma importante commodity agrícola. A cana-de-açúcar também é cultivada para a produção de açúcar e etanol. Os produtos florestais não madeireiros incluem itens como mel, castanhas e óleos essenciais. \nTécnica de plantação mais adequada: Na Mata Atlântica do Sudeste, técnicas de plantio diversificado e agroflorestal são mais adequadas. Isso envolve a combinação de diferentes culturas em um mesmo sistema de cultivo, com a inclusão de espécies agrícolas e florestais. Essa abordagem contribui para a preservação da biodiversidade e para a sustentabilidade dos sistemas produtivos. Além disso, práticas de conservação do solo, como a adoção de curvas de nível e a cobertura vegetal, são importantes para reduzir a erosão e manter a fertilidade do solo. \n\nCentros comerciais próximos: Os centros comerciais mais próximos da região da Mata Atlântica no Sudeste brasileiro incluem cidades como São Paulo, Rio de Janeiro, Belo Horizonte e Curitiba. Essas cidades são importantes polos comerciais, oferecendo acesso a mercados regionais e serviços.\n\nMeios de transporte mais adequados: Os meios de transporte mais adequados na região da Mata Atlântica do Sudeste são o transporte rodoviário e o transporte ferroviário. A região possui uma infraestrutura rodoviária bem desenvolvida, permitindo o transporte eficiente de mercadorias e pessoas por meio de estradas. Além disso, o transporte ferroviário é relevante para o transporte de cargas, especialmente para produtos agrícolas em grande escala. O transporte aéreo também é utilizado para conectar áreas mais distantes e para o transporte de pessoas e produtos mais sensíveis ou de maior valor agregado.\n\nBioma: Cerrado \n\nTipo de plantio: Na região do Cerrado no Sudeste brasileiro, são realizados diversos tipos de plantio, com destaque para a produção de grãos, como soja, milho, feijão e arroz. Além disso, também são cultivadas frutas tropicais, como o pequi, o caju e o maracujá. \n\nTipos de alimentos desses plantios: Os plantios no Cerrado do Sudeste fornecem alimentos como soja, milho, feijão, arroz, que são componentes essenciais na alimentação humana e animal. A soja é utilizada para a produção de óleo vegetal, farelo de soja e ração animal. O milho é utilizado na alimentação humana, na produção de ração animal e na indústria de biocombustíveis.\nTécnica de plantação mais adequada: A técnica de plantação mais adequada no Cerrado é o sistema de plantio direto, que consiste em evitar o revolvimento do solo e manter a cobertura vegetal sobre ele. Essa técnica ajuda a preservar a estrutura do solo, reduzir a erosão e conservar a umidade, características importantes em um bioma com períodos de seca. \n\nCentros comerciais próximos: Os centros comerciais mais próximos da região do Cerrado no Sudeste brasileiro incluem cidades como Brasília, Goiânia, Uberlândia e Ribeirão Preto. Essas cidades são importantes polos comerciais, oferecendo acesso a mercados regionais e serviços. \nMeios de transporte mais adequados: Os meios de transporte mais adequados na região do Cerrado no Sudeste são o transporte rodoviário e o transporte ferroviário. A região possui uma boa malha rodoviária, facilitando o transporte de produtos agrícolas para os centros comerciais e para exportação. Além disso, o transporte ferroviário é relevante para o escoamento de commodities agrícolas, como a soja e o milho.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1685111224845",
+      "conditions": "@sudeste_brasil",
+      "dialog_node": "node_3_1685113242669",
+      "previous_sibling": "node_3_1685113234813"
+    },
+    {
+      "type": "standard",
+      "title": "Região Oeste de Cuba",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oeste: Planícies e pântanos\n\nBioma Planícies e pântanos:\n\nTipo de plantio: Nas planícies e pântanos da região Oeste de Cuba, é comum o cultivo de arroz e outros grãos adaptados a solos úmidos. As áreas planas e alagadas proporcionam condições favoráveis para o cultivo de arroz. \n\nTipos de alimentos: O principal alimento cultivado nessas regiões é o arroz. Além disso, dependendo das condições específicas, também pode haver cultivo de outros grãos, como feijão e milho. Algumas áreas podem ser utilizadas para pastagens de gado. \n\nTécnica de plantação mais adequada: Para o cultivo de arroz nas planícies e pântanos, a técnica de plantação mais adequada é conhecida como \"cultivo inundado\". Essa técnica envolve inundar as áreas de cultivo com água controlada, criando um ambiente favorável para o crescimento do arroz. A rotação de culturas e o manejo adequado da água também são importantes para a sustentabilidade desses sistemas agrícolas. \n\nCentros comerciais próximos: Os centros comerciais mais próximos das planícies e pântanos da região Oeste de Cuba podem variar dependendo da localização específica. Geralmente, existem mercados locais e cooperativas agrícolas onde os agricultores podem vender seus produtos. Além disso, cidades maiores, como Pinar del Río e Artemisa, podem oferecer opções de comércio e processamento de alimentos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para as planícies e pântanos dependem das condições de acesso. Em geral, os agricultores utilizam veículos motorizados, como caminhões, para transportar seus produtos agrícolas até os centros comerciais. Além disso, barcos e pequenas embarcações podem ser utilizados para o transporte em áreas com rios e lagos. A disponibilidade de estradas e vias navegáveis ​​locais influenciará a escolha dos meios de transporte mais adequados.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1685111826562",
+      "conditions": "@oeste_cuba",
+      "dialog_node": "node_3_1685137455204",
+      "previous_sibling": "node_8_1685137451403"
+    },
+    {
+      "type": "standard",
+      "title": "Região Leste da África do Sul ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Leste: Savannah arborizada, Florestas úmidas\n\nBioma Savana arborizada\n\nTipo de plantio: No bioma savana arborizada, é comum o cultivo de culturas agrícolas como milho, sorgo, batata-doce, feijão, abóbora e outras hortaliças. Essas culturas são adaptadas às condições da savana, que apresenta um período de chuvas seguido de um período de seca. \n\nAlimentos provenientes dos plantios: Os alimentos provenientes dos plantios no bioma savana arborizada incluem uma variedade de grãos, tubérculos, legumes e vegetais. O milho é uma das culturas mais importantes na região e é utilizado para a produção de alimentos básicos, como farinha de milho e fubá. Além disso, o sorgo é uma cultura comum, utilizado para a produção de grãos e farelo, que são utilizados na alimentação animal e humana. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada na savana arborizada depende das características do solo, clima e das culturas específicas cultivadas. A utilização de sistemas de cultivo de conservação, como a plantio direto e a rotação de culturas, pode ser benéfica para a conservação do solo e o aumento da produtividade. Além disso, é importante fazer uso eficiente da água, pois a região pode apresentar períodos de seca prolongados. \n\nCentros comerciais próximos: Na região leste da África do Sul, existem diversos centros comerciais e mercados locais onde os produtos agrícolas podem ser comercializados. Cidades como Joanesburgo, Pretória e Durban são exemplos de centros comerciais próximos que oferecem uma variedade de opções para a venda e distribuição dos produtos agrícolas. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região do bioma savana arborizada incluem o transporte rodoviário e ferroviário. A região possui uma boa infraestrutura rodoviária e ferroviária, permitindo o transporte eficiente dos produtos agrícolas para os centros comerciais e outros mercados. Além disso, o transporte aéreo também pode ser utilizado para o transporte rápido de produtos perecíveis ou de alto valor.\n\n\nBioma Florestas úmidas\n\nTipo de plantio: Nas florestas úmidas da região leste da África do Sul, é comum o cultivo de plantas frutíferas tropicais, como bananas, mangas, abacaxis, maracujás e citros. Além disso, outras culturas agrícolas como café, cacau, chá e especiarias também podem ser cultivadas nesse ambiente. \n\nAlimentos provenientes dos plantios: Os plantios nesse bioma fornecem uma variedade de alimentos tropicais, incluindo frutas frescas, sucos, polpas, café, chocolate e chá. As frutas tropicais, como bananas e mangas, são especialmente comuns e valorizadas na região. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada na floresta úmida depende das características específicas da cultura cultivada. No entanto, algumas técnicas comuns incluem o plantio em sistemas agroflorestais, onde as árvores frutíferas são combinadas com outras espécies vegetais para promover a biodiversidade e a sustentabilidade. Além disso, o manejo adequado da umidade e a proteção contra pragas e doenças são importantes para o sucesso dos plantios. \n\nCentros comerciais próximos: Na região leste da África do Sul, existem vários centros comerciais e mercados locais onde os produtos agrícolas podem ser comercializados. Cidades como Durban, Pietermaritzburg e Richards Bay são exemplos de centros comerciais próximos que oferecem uma variedade de opções para a venda e distribuição dos produtos agrícolas. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região do bioma de floresta úmida incluem o transporte rodoviário e ferroviário. A região possui uma boa infraestrutura de transporte, permitindo o transporte eficiente dos produtos agrícolas para os centros comerciais e outros mercados. Além disso, o transporte marítimo também pode ser utilizado para exportação de produtos agrícolas para outros países, aproveitando a proximidade da região com os portos marítimos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1685138799413",
+      "conditions": "@leste_africa",
+      "dialog_node": "node_3_1685139377520",
+      "previous_sibling": "node_10_1685139374490"
+    },
+    {
+      "type": "standard",
+      "title": "China",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em qual região da China você vive?\n\n- Noroeste da China \n- Norte da China \n- Nordeste da China \n- Oriental da China \n- Centro Sul da China \n- Sudoeste da China \n- Não sei "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685058582497",
+      "conditions": "@china",
+      "dialog_node": "node_3_1685140264416",
+      "previous_sibling": "node_6_1685140260967"
+    },
+    {
+      "type": "standard",
+      "title": "Região Ocidental da Austrália ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ocidental: Deserto\n\nBioma Deserto\n\nTipo de plantio: Devido às condições extremas do deserto, o plantio agrícola é desafiador. No entanto, em algumas áreas específicas da região ocidental da Austrália, é possível encontrar plantações de oliveiras, vinhas e plantas nativas adaptadas a climas áridos. \n\nTipos de alimentos: Os alimentos cultivados nessas áreas podem incluir azeitonas, uvas (para produção de vinho) e algumas plantas nativas que são adaptadas para sobreviver em ambientes áridos. \n\nTécnica de plantação mais adequada: As técnicas de plantação mais adequadas para o bioma deserto da região ocidental da Austrália incluem o uso de técnicas de conservação de água, como a irrigação por gotejamento, o plantio em sulcos ou em covas com retenção de água e o uso de mulching (cobertura morta) para reduzir a evaporação da água do solo. A utilização de técnicas de manejo sustentável do solo também é essencial para proteger a fertilidade e a qualidade do solo nessas condições adversas. \n\nCentros comerciais próximos: Os centros comerciais mais próximos das áreas de deserto na região ocidental da Austrália podem variar dependendo da localização específica. Geralmente, existem cidades e vilarejos onde os produtores podem comercializar seus produtos diretamente aos consumidores em mercados locais, lojas especializadas em produtos agrícolas e vinícolas. Além disso, existem distribuidores regionais e supermercados que adquirem esses produtos para venda aos consumidores. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região do deserto na região ocidental da Austrália dependem da infraestrutura local e da distância até os centros comerciais. Geralmente, os produtores utilizam caminhões e veículos motorizados para transportar seus produtos agrícolas para os locais de venda ou processamento. Além disso, em algumas áreas, pode haver acesso a redes ferroviárias e transporte aéreo para o transporte de longa distância.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1685140260967",
+      "conditions": "@ocidental_australia",
+      "dialog_node": "node_3_1685140560342",
+      "previous_sibling": "node_4_1685140557114"
+    },
+    {
+      "type": "standard",
+      "title": "Continentes/Países ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo! Pode nos informar em qual país você vive?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#continentes && @continentes",
+      "dialog_node": "node_4_1685058582497",
+      "previous_sibling": "node_5_1685285534292"
+    },
+    {
+      "type": "standard",
+      "title": "Retorno do FeedBack",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agradecemos o FeedBack!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "Em outros casos",
+      "conditions": "@avaliacao",
+      "dialog_node": "node_4_1685098679158"
+    },
+    {
+      "type": "standard",
+      "title": "Estados Unidos ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em qual região dos Estados Unidos você vive?\n\n- Oeste dos Estados Unidos \n- Centro Oeste dos Estados Unidos \n- Nordeste dos Estados Unidos \n- Sul dos Estados Unidos \n- Não sei "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685058582497",
+      "conditions": "@estados_unidos",
+      "dialog_node": "node_4_1685111861154",
+      "previous_sibling": "node_9_1685111826562"
+    },
+    {
+      "type": "standard",
+      "title": "Egito",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em qual região do Egito você vive?\n\n- Norte do Egito \n- Sul do Egito \n- Leste do Egito \n- Oeste do Egito \n- Não sei "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685058582497",
+      "conditions": "@egito",
+      "dialog_node": "node_4_1685138802430",
+      "previous_sibling": "node_5_1685138799413"
+    },
+    {
+      "type": "standard",
+      "title": "Região Oeste do Egito ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\nOeste: Deserto do Saara, \n\nBioma Deserto\n\nTipo de plantio: No bioma deserto da região Oeste do Egito, o tipo de plantio mais comum é o cultivo de oásis. Os oásis são áreas onde a água está disponível, geralmente proveniente de aquíferos subterrâneos ou fontes naturais. Nessas áreas, é possível cultivar palmeiras, oliveiras, tamareiras, além de algumas culturas de subsistência, como legumes e vegetais resistentes à seca. \n\nTipos de alimentos: Os alimentos cultivados nos oásis do deserto da região Oeste do Egito incluem tâmaras, azeitonas, palmeiras e algumas culturas de subsistência, como feijão, grão de bico, cebola, alho e outros vegetais resistentes à seca. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada no deserto da região Oeste do Egito é o uso de técnicas de irrigação, como o sistema de irrigação por gotejamento. Essa técnica permite a aplicação precisa de água diretamente nas raízes das plantas, reduzindo o desperdício e maximizando a eficiência hídrica. Além disso, a adoção de práticas de conservação do solo, como a cobertura morta, pode ajudar a reter a umidade e melhorar as condições de crescimento das plantas. \n\nCentros comerciais próximos: Os centros comerciais próximos ao deserto da região Oeste do Egito podem incluir cidades como Assuã, Luxor, Cairo e outras cidades maiores. Essas cidades possuem mercados locais, onde os produtos agrícolas dos oásis podem ser comercializados, além de oferecerem opções de processamento e distribuição de alimentos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região do deserto da região Oeste do Egito incluem veículos terrestres, como caminhões e vans, para o transporte dos produtos agrícolas dos oásis para os centros comerciais. Dependendo da distância, também é possível utilizar o transporte aéreo ou fluvial para conectar regiões mais remotas aos mercados.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685138802430",
+      "conditions": "@oeste_egito",
+      "dialog_node": "node_4_1685139570681",
+      "previous_sibling": "node_10_1685139567607"
+    },
+    {
+      "type": "standard",
+      "title": "Região Norte da República Democrática do Congo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Norte: Floresta tropical\n\nBioma Floresta Tropical\n\nTipo de plantio: Na floresta tropical da região norte da República Democrática do Congo, são cultivadas culturas de subsistência, como mandioca, inhame, batata-doce, bananas, milho, feijão, amendoim, frutas tropicais (como abacaxi e manga) e óleo de palma. Essas culturas atendem às necessidades alimentares das comunidades locais.\n\nTipos de alimentos: Os alimentos cultivados incluem mandioca, inhame, batata-doce, bananas, milho, feijão, amendoim, frutas tropicais e óleo de palma. Além disso, a floresta tropical também oferece uma variedade de produtos não cultivados, como frutas silvestres, castanhas, cogumelos e plantas medicinais, que são coletados pelas comunidades locais. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada na floresta tropical da região norte da República Democrática do Congo é a agricultura de corte e queima, também conhecida como roça ou cultivo itinerante. Nessa técnica, as áreas de floresta são desmatadas e queimadas para liberar espaço para o plantio. Após alguns anos de cultivo, a área é deixada em repouso para se regenerar naturalmente, enquanto outra área é utilizada para o plantio. Essa prática é adotada devido à falta de recursos e à abundância de terras disponíveis. \n\nCentros comerciais próximos: Os centros comerciais próximos à região norte da República Democrática do Congo podem incluir cidades como Kisangani e Goma. Essas cidades possuem mercados locais, onde os produtos agrícolas são comercializados, além de oferecerem opções de processamento e distribuição de alimentos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região da floresta tropical no norte da República Democrática do Congo são principalmente o transporte terrestre, como caminhões e veículos utilitários, para o transporte dos produtos agrícolas até os centros comerciais. Devido às condições desafiadoras das estradas na região, o transporte fluvial também pode ser utilizado nos rios navegáveis, como o rio Congo.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1685138805300",
+      "conditions": "@norte_congo",
+      "dialog_node": "node_4_1685139885667"
+    },
+    {
+      "type": "standard",
+      "title": "Região Norte da Austrália ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Norte: Savanas\n\nBioma Savanas\n\nTipo de plantio: Nas savanas da região norte da Austrália, são cultivadas culturas que são adaptadas às condições sazonais e de disponibilidade de água. Exemplos comuns de culturas agrícolas incluem sorgo, milho, arroz, trigo, feijão, leguminosas e algumas frutas tropicais, como banana, abacaxi e manga. \n\nTipos de alimentos: Os alimentos cultivados nessas áreas podem incluir cereais como sorgo, milho, arroz e trigo, que são usados tanto para alimentação humana quanto animal. Além disso, são cultivados feijões e leguminosas, que são ricos em proteínas. Em algumas áreas com condições mais favoráveis de água e clima, também podem ser cultivadas frutas tropicais, como banana, abacaxi e manga. \n\nTécnica de plantação mais adequada: As técnicas de plantação mais adequadas para as savanas da região norte da Austrália incluem o uso de técnicas de conservação de água, como a irrigação por gotejamento ou irrigação controlada, que permitem uma utilização mais eficiente da água disponível. Além disso, a rotação de culturas e o manejo adequado do solo são importantes para a manutenção da fertilidade e da saúde do solo nessas áreas. \n\nCentros comerciais próximos: Os centros comerciais mais próximos das savanas da região norte da Austrália variam dependendo da localização específica. Geralmente, existem cidades e vilarejos onde os produtores podem comercializar seus produtos diretamente aos consumidores em mercados locais, feiras e lojas de produtos agrícolas. Além disso, existem distribuidores regionais, supermercados e indústrias de processamento de alimentos que adquirem esses produtos para venda e distribuição. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região das savanas da região norte da Austrália dependem da infraestrutura local, da distância até os centros comerciais e das características das culturas cultivadas. Geralmente, os agricultores utilizam caminhões e veículos motorizados para transportar seus produtos agrícolas para os locais de venda, processamento ou armazenamento. Em algumas áreas mais remotas, o transporte aéreo pode ser utilizado para alcançar centros comerciais distantes.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1685140260967",
+      "conditions": "@norte_australia",
+      "dialog_node": "node_4_1685140557114"
+    },
+    {
+      "type": "standard",
+      "title": "Região Nordeste da China ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nordeste: Floresta Temperada\n\n\nBioma Floresta Temperada\n\nTipo de plantio: No bioma dos desertos da região nordeste da China, o plantio mais comum é o cultivo de plantas adaptadas a ambientes áridos. Isso pode incluir culturas resistentes à seca, como algodão, sorgo, milho, trigo sarraceno e leguminosas, como feijão e lentilha. Além disso, também podem ser cultivadas plantas medicinais e ervas adaptadas ao clima desértico. \n\nAlimentos provenientes dos plantios: As opções de alimentos provenientes dos plantios em desertos da região nordeste da China incluem grãos como milho, trigo sarraceno e sorgo, que podem ser utilizados para a produção de alimentos básicos, como farinha e pão. Além disso, leguminosas como feijão e lentilha podem ser consumidas como fonte de proteína vegetal. \n\nTécnica de plantação mais adequada: Devido às condições áridas, a técnica de plantação mais adequada nos desertos da região nordeste da China é o uso de técnicas de conservação de água e controle de erosão. Isso inclui o uso de sistemas de irrigação eficientes, como a irrigação por gotejamento e a irrigação localizada. Além disso, a implementação de práticas de manejo adequado do solo, como a cobertura morta, pode ajudar a reduzir a evaporação e a erosão. \n\nCentros comerciais próximos: Na região nordeste da China, cidades como Urumqi, Turpan e Dunhuang podem servir como centros comerciais para a comercialização de produtos agrícolas provenientes dos desertos. Essas cidades possuem infraestrutura comercial e mercados onde os produtos podem ser vendidos. Além disso, existem também cooperativas agrícolas e programas governamentais que auxiliam na comercialização dos produtos agrícolas. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região do bioma dos desertos da região nordeste da China incluem o transporte rodoviário e ferroviário. A região possui uma rede de estradas e ferrovias que permitem o transporte de produtos agrícolas para os centros comerciais e outros mercados. Além disso, o transporte aéreo também pode ser utilizado para acessar regiões mais distantes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1685140264416",
+      "conditions": "@nordeste_china",
+      "dialog_node": "node_4_1685140575427",
+      "previous_sibling": "node_5_1685140572496"
+    },
+    {
+      "type": "standard",
+      "title": " Região Sudoeste da China ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sudoeste: Floresta Tropical, Montanhas e vales\n\n\nBioma Floresta tropical\n\nTipo de plantio: Na região sudoeste da China, no bioma da floresta tropical, são cultivadas uma ampla variedade de culturas agrícolas. Isso inclui arroz, milho, trigo, batata, mandioca, cana-de-açúcar, chá, frutas tropicais (como banana, manga, abacaxi) e vegetais diversos. \n\nAlimentos provenientes dos plantios: Os alimentos provenientes desses plantios incluem o arroz, que é um alimento básico na região, assim como o milho e o trigo, que são usados para fazer pães e outros produtos derivados. A batata e a mandioca são fontes importantes de carboidratos. As frutas tropicais são apreciadas tanto no mercado interno como no externo, e os vegetais diversos complementam a dieta local. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada na floresta tropical da região sudoeste da China depende das condições locais, como solo, clima e relevo. A utilização de sistemas agroflorestais, onde cultivos agrícolas são combinados com árvores frutíferas ou madeireiras, é comum nesse bioma. Essa técnica ajuda na conservação do solo, no fornecimento de sombra e proteção contra ventos fortes, além de promover a diversificação e a sustentabilidade dos sistemas de produção. \n\nCentros comerciais próximos: Na região sudoeste da China, cidades como Kunming, Chengdu, Chongqing e Guiyang são importantes centros comerciais. Essas cidades possuem mercados ativos e uma infraestrutura comercial estabelecida para a compra, venda e distribuição de produtos agrícolas provenientes da floresta tropical.\n\n Meios de transporte mais adequados: Os meios de transporte mais adequados para a região sudoeste da China incluem o transporte rodoviário e ferroviário. A região possui uma rede de estradas e ferrovias bem desenvolvida, permitindo o acesso às áreas de produção agrícola e o transporte eficiente dos produtos para os centros comerciais. \n\nBioma Montanhas e vales\n\nTipo de plantio: Nas montanhas e vales da região centro-sudoeste da China, são cultivadas várias culturas agrícolas adaptadas às diferentes altitudes e condições climáticas. Alguns exemplos de cultivos comuns incluem arroz, trigo, milho, batata, legumes, frutas, chá e plantas medicinais. \n\nAlimentos provenientes dos plantios: Os alimentos provenientes desses plantios incluem arroz, que é um alimento básico na China, assim como trigo e milho, que são utilizados para a produção de farinha e outros produtos derivados. Batatas e legumes diversos também são cultivados, além de frutas como maçãs, peras, pêssegos e kiwis. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada nas montanhas e vales da região centro-sudoeste da China depende da altitude, do relevo e das condições específicas do local. Em áreas montanhosas, a prática de terraços agrícolas é comum para reduzir a erosão do solo e aproveitar melhor a área disponível para o cultivo. Além disso, a rotação de culturas, o uso de fertilizantes orgânicos e o controle de irrigação são práticas importantes para garantir o sucesso das colheitas. \n\nCentros comerciais próximos: Existem vários centros comerciais na região centro-sudoeste da China, onde os agricultores podem vender seus produtos. Alguns exemplos de cidades com infraestrutura comercial desenvolvida incluem Chengdu, Chongqing, Guiyang, Kunming e Lijiang. Essas cidades possuem mercados locais, supermercados, feiras e outras instalações de comércio onde os produtos agrícolas podem ser vendidos. \n\nMeios de transporte mais adequados: Devido às características montanhosas da região, os meios de transporte mais adequados podem variar dependendo da acessibilidade e infraestrutura local. O transporte rodoviário é comumente utilizado para transportar os produtos agrícolas para os centros comerciais. Em áreas remotas, onde a topografia dificulta o acesso por estradas, o transporte por meio de cavalos, mulas ou motocicletas pode ser utilizado. Além disso, em algumas áreas, o transporte fluvial também pode ser uma opção, especialmente ao longo de rios navegáveis.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1685140264416",
+      "conditions": "@sudoeste_china",
+      "dialog_node": "node_4_1685140584516",
+      "previous_sibling": "node_6_1685140581185"
+    },
+    {
+      "type": "standard",
+      "title": "Região Sul da Inglaterra ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sul: Florestas temperadas, Pastagens e campos agrícolas\n\n\nBioma Florestas temperadas\n\nTipo de plantio: Nas florestas temperadas da região sul da Inglaterra, são comuns os cultivos de cereais, frutas, legumes, hortaliças e plantas ornamentais. Os campos agrícolas são utilizados para o plantio de trigo, cevada, aveia e outros grãos, bem como para a produção de frutas, como maçãs, peras, ameixas, cerejas, entre outras. \n\nAlimentos provenientes dos plantios: Os alimentos produzidos nas florestas temperadas da região sul da Inglaterra incluem uma variedade de produtos agrícolas. Entre os principais alimentos provenientes desses plantios estão o pão e outros produtos de panificação feitos a partir dos grãos cultivados, além de uma ampla variedade de frutas frescas e vegetais, como alface, cenoura, beterraba, repolho, entre outros. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada nas florestas temperadas da região sul da Inglaterra depende do tipo de cultura. Para os cereais, costuma-se utilizar a técnica de plantio direto, em que os grãos são semeados diretamente no solo preparado. No caso das frutas e vegetais, são utilizadas técnicas como o plantio em fileiras, com espaçamento adequado entre as plantas, e o uso de adubos e irrigação adequados para garantir um crescimento saudável das plantas. \n\nCentros comerciais próximos: Os centros comerciais próximos à região sul da Inglaterra incluem cidades como Londres, Bristol, Southampton, Brighton e outras. Essas cidades possuem mercados locais, supermercados, feiras agrícolas e outros locais de comércio onde os produtos agrícolas podem ser vendidos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados na região sul da Inglaterra são o transporte rodoviário e o transporte ferroviário. As estradas e ferrovias conectam as áreas rurais aos centros comerciais e distribuidores, facilitando o transporte dos produtos agrícolas frescos. Além disso, o transporte marítimo também é relevante, especialmente para exportação e importação de produtos agrícolas em portos próximos, como Southampton e Bristol.\n\n\nBioma Pastagens e campos agrícolas\n\nTipo de plantio: Os principais tipos de plantio nessa região incluem culturas de cereais, como trigo, cevada e aveia, além de vegetais como batatas, cenouras, repolhos e outros produtos agrícolas. \n\nAlimentos provenientes dos plantios: Os alimentos provenientes desses plantios incluem grãos de cereais, farinha, pães, massas, batatas, vegetais frescos e diversos outros produtos agrícolas que são essenciais para a alimentação humana. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada na região sul da Inglaterra depende do tipo de cultura. Geralmente, é utilizada a técnica de plantio em fileiras, onde as sementes são semeadas em linhas espaçadas, permitindo o desenvolvimento das plantas e facilitando a colheita. \n\nCentros comerciais próximos: Na região sul da Inglaterra, há diversas cidades e centros comerciais próximos aos campos agrícolas. Alguns exemplos incluem Londres, Bristol, Southampton, Brighton e Reading, onde é possível encontrar uma variedade de mercados, supermercados e feiras agrícolas para a venda e distribuição dos produtos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para essa região incluem caminhões, tratores e veículos agrícolas para o transporte dos produtos agrícolas e maquinários. Além disso, a região possui uma boa infraestrutura rodoviária e ferroviária, o que facilita o transporte para centros comerciais e áreas urbanas.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1685141412372",
+      "conditions": "@sul_inglaterra",
+      "dialog_node": "node_4_1685141705665",
+      "previous_sibling": "node_8_1685141702021"
+    },
+    {
+      "type": "standard",
+      "title": "Região Norte da França",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Norte: Florestas temperadas e Campos e pastagens.\n\n\nBioma Florestas temperadas\n\nTipo de plantio: Nas áreas adjacentes às florestas temperadas, é comum o cultivo de cereais, como trigo, cevada e aveia. Também é possível encontrar pomares de frutas, como maçãs, peras e ameixas, além de vinhas para produção de vinhos. \n\nAlimentos provenientes dos plantios: Os cereais cultivados, como trigo e cevada, são usados para a produção de pães, massas e outros produtos derivados de grãos. As frutas cultivadas na região, como maçãs e peras, são consumidas frescas ou processadas em produtos como sucos, compotas e sobremesas. Além disso, a região é conhecida por sua produção de vinhos de alta qualidade. \n\nTécnica de plantação mais adequada: As técnicas de plantação mais adequadas para essa região dependem do tipo de cultivo. No caso dos cereais, são utilizadas técnicas modernas de plantio, como o uso de máquinas agrícolas eficientes e práticas de conservação do solo. No caso dos pomares e vinhas, são aplicadas técnicas de manejo específicas, como a poda adequada das árvores e videiras e a implementação de práticas de controle de pragas e doenças. \n\nCentros comerciais próximos: Na região norte da França, próximos às florestas temperadas, existem vários centros comerciais e mercados onde é possível encontrar uma variedade de produtos agrícolas locais. Alguns exemplos de centros comerciais incluem as cidades de Lille, Amiens e Reims, que possuem uma infraestrutura comercial bem desenvolvida. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região incluem caminhões e veículos agrícolas para o transporte de produtos agrícolas. Além disso, a região possui uma boa rede de estradas e ferrovias, facilitando o transporte de produtos para centros urbanos e outras regiões. O transporte marítimo também pode ser utilizado para exportação de produtos agrícolas.\n\n\nBiomas Campos e pastagens\n\nTipo de plantio: Nas áreas de campos e pastagens, é comum o cultivo de culturas como trigo, cevada, aveia e colza (uma planta oleaginosa). Além disso, essas áreas também são utilizadas para a criação de gado, como bovinos, ovinos e equinos, que se alimentam principalmente da vegetação das pastagens. \n\nAlimentos provenientes dos plantios: As culturas de trigo, cevada e aveia são utilizadas principalmente para a produção de grãos, que são posteriormente processados em alimentos como pães, massas, cereais e ração animal. A colza é cultivada principalmente pela produção de óleo vegetal utilizado na culinária e na indústria alimentícia. Além disso, a criação de gado nas pastagens proporciona carne bovina, ovina e equina, bem como produtos derivados, como leite e queijo. \n\nTécnica de plantação mais adequada: Para o cultivo de culturas como trigo, cevada, aveia e colza, são utilizadas técnicas modernas de plantio, como o uso de máquinas agrícolas eficientes, práticas de conservação do solo e controle de pragas e doenças. No caso das pastagens, a manutenção adequada das áreas, como o controle do pastejo e a adubação, é essencial para garantir a qualidade e o crescimento das gramíneas. \n\nCentros comerciais próximos: Na região norte da França, existem vários centros comerciais e mercados onde é possível encontrar produtos agrícolas locais, incluindo cereais, colza e produtos de origem animal. Alguns exemplos de centros comerciais incluem as cidades de Lille, Amiens e Rouen, que possuem uma infraestrutura comercial bem desenvolvida. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região incluem caminhões e veículos agrícolas para o transporte de produtos agrícolas, tanto para os mercados locais quanto para outros destinos. A região também possui uma boa rede de estradas e ferrovias, facilitando o transporte de produtos agrícolas para outras regiões e centros urbanos.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1685141416034",
+      "conditions": "@norte_franca",
+      "dialog_node": "node_4_1685141718499"
+    },
+    {
+      "type": "standard",
+      "title": "Região Central de Cuba",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Centro: Montanhas e serras\n\nBioma Montanhas e serras:\n\nTipo de plantio: Nas montanhas e serras, o plantio em terraços é uma técnica comum e eficaz para aproveitar melhor o terreno acidentado. Os terraços são construídos em níveis escalonados ao longo das encostas, permitindo o cultivo de uma variedade de culturas.\n\nTipos de alimentos: Na região das montanhas e serras, é comum cultivar uma variedade de alimentos, como batatas, milho, feijão, legumes, frutas tropicais (como banana, abacaxi e manga) e hortaliças. \n\nTécnica de plantação mais adequada: A construção de terraços é uma técnica de plantação amplamente utilizada nas montanhas e serras. Ela ajuda a reduzir a erosão do solo, conservar água e proporcionar uma superfície plana para o cultivo. Além disso, a rotação de culturas e o manejo integrado de pragas e doenças são práticas importantes para garantir a produtividade e a sustentabilidade dos sistemas agrícolas nesta região. \n\nCentros comerciais próximos: Os centros comerciais mais próximos das montanhas e serras da região Centro de Cuba dependerão da localização específica. Geralmente, as áreas montanhosas têm acesso limitado a grandes centros urbanos, e os agricultores podem vender seus produtos em feiras locais ou em mercados menores nas proximidades. Além disso, cooperativas agrícolas e programas governamentais podem facilitar a comercialização dos produtos agrícolas. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para as montanhas e serras incluem veículos todo-terreno, burros ou mulas para o transporte de cargas em trilhas íngremes e sinuosas. Além disso, dependendo da infraestrutura local, pode haver estradas ou caminhos que permitam o uso de veículos motorizados para o transporte de produtos agrícolas até os centros de comercialização mais próximos.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1685111826562",
+      "conditions": "@centro_cuba",
+      "dialog_node": "node_5_1685137411376"
+    },
+    {
+      "type": "standard",
+      "title": "África do Sul ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em qual região da África do Sul você vive?\n\n- Norte da África do Sul \n- Sul da África do Sul\n- Leste da África do Sul\n- Oeste da África do Sul\n- Não sei "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685058582497",
+      "conditions": "@africa_do_sul",
+      "dialog_node": "node_5_1685138799413",
+      "previous_sibling": "node_4_1685111861154"
+    },
+    {
+      "type": "standard",
+      "title": "Região Sul da República Democrática do Congo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sul: Savanas e Florestas tropicais\n\nBioma Savanas\n\nTipo de plantio: Nas savanas da região sul da República Democrática do Congo, são cultivadas culturas de subsistência, como milho, sorgo, amendoim, feijão, mandioca e batata-doce. Essas culturas atendem às necessidades alimentares das comunidades locais. \n\nTipos de alimentos: Os alimentos cultivados incluem milho, sorgo, amendoim, feijão, mandioca e batata-doce. Além disso, algumas frutas tropicais também podem ser encontradas nas savanas, como mangas e bananas. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada nas savanas da região sul da República Democrática do Congo varia dependendo da disponibilidade de recursos e das práticas locais. O cultivo em pequenas parcelas, a rotação de culturas e o uso de sistemas de cultivo intercalar são algumas das práticas comuns utilizadas para otimizar o uso da terra e a produção agrícola nas savanas. \n\nCentros comerciais próximos: Os centros comerciais próximos à região sul da República Democrática do Congo podem incluir cidades como Lubumbashi, Kolwezi e Likasi. Essas cidades possuem mercados locais onde os produtos agrícolas são comercializados, além de oferecerem opções de processamento e distribuição de alimentos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região das savanas no sul da República Democrática do Congo são principalmente o transporte terrestre, como caminhões e veículos utilitários, para o transporte dos produtos agrícolas até os centros comerciais. A infraestrutura de estradas pode ser limitada em algumas áreas, portanto, é importante considerar as condições locais e a disponibilidade de rotas viáveis.\n\n\nBioma Florestas tropicais\nTipo de plantio: Nas florestas tropicais da região sul da República Democrática do Congo, as comunidades locais cultivam principalmente culturas de subsistência, como mandioca, milho, batata-doce, inhame, banana e frutas tropicais. \n\nTipos de alimentos: Os alimentos cultivados incluem mandioca, milho, batata-doce, inhame, banana e diversas frutas tropicais, como abacaxi, manga e maracujá. Além disso, algumas comunidades também podem praticar a caça e a coleta de alimentos na floresta. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada nas florestas tropicais da região sul da República Democrática do Congo pode envolver práticas como a derrubada e queima da vegetação para a preparação do solo, seguida pelo plantio direto ou plantio em clareiras abertas na floresta. A agrofloresta, que combina cultivo de alimentos com a preservação de árvores nativas, também pode ser uma técnica utilizada nessa região. \n\nCentros comerciais próximos: Os centros comerciais próximos à região sul da República Democrática do Congo podem incluir cidades como Lubumbashi, Likasi e Kolwezi. Essas cidades possuem mercados locais onde os produtos agrícolas são comercializados, além de oferecerem opções de processamento e distribuição de alimentos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região das florestas tropicais no sul da República Democrática do Congo podem variar dependendo da infraestrutura local. Geralmente, o transporte terrestre é utilizado, como caminhões e veículos utilitários, para o transporte dos produtos agrícolas até os centros comerciais. No entanto, é importante considerar as condições das estradas, que podem ser precárias em algumas áreas, e adaptar-se às circunstâncias locais.\n\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1685138805300",
+      "conditions": "@sul_congo",
+      "dialog_node": "node_5_1685139890105",
+      "previous_sibling": "node_4_1685139885667"
+    },
+    {
+      "type": "standard",
+      "title": "Região Norte da China ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Norte - Florestas Temperadas, Estepes, Desertos, Montanhas e planaltos.\n\nBioma Florestas temperadas\n\nTipo de plantio:  O tipo de plantio predominante é o plantio de árvores de interesse econômico, como o pinheiro, abeto e carvalho.\nAlimentos provenientes dos plantios: Alguns exemplos de alimentos cultivados nessa região incluem:\nCereais: Trigo, cevada, milho.\nFrutas: Maçãs, peras, ameixas, uvas.\nHortaliças: Repolho, cenoura, batata, alho.\nTécnica de plantação mais adequada: A técnica de plantação mais adequada nas florestas temperadas da região norte da China é o plantio de mudas ou sementes em áreas desmatadas ou em áreas previamente cultivadas. O manejo florestal sustentável é fundamental para garantir a regeneração das florestas e o uso adequado dos recursos naturais.\nCentros comerciais próximos: Harbin, Changchun, Shenyang e Dalian.\nMeios de transporte mais adequados: A região norte da China é bem servida por uma rede de estradas, ferrovias e aeroportos.\n\n\nBioma Estepes\n\nTipo de plantio: No bioma das estepes da região norte da China, o tipo de plantio predominante é o plantio de culturas adaptadas às condições de clima seco e solo pouco fértil. \n\nAlimentos provenientes dos plantios: Trigo, Cevada, Milho e Soja.\n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada nas estepes da região norte da China é a agricultura de sequeiro, que depende principalmente da umidade natural da chuva. Também são utilizadas práticas de conservação do solo, como o cultivo em níveis e a utilização de técnicas de rotação de culturas para preservar a fertilidade do solo. \n\nCentros comerciais próximos: Quanto aos centros comerciais próximos, cidades como Hohhot, Baotou e Ordos na região autônoma da Mongólia Interior, e Urumqi na região autônoma de Xinjiang, são importantes centros comerciais e agrícolas na região norte da China. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados na região incluem o transporte rodoviário e ferroviário, que permitem o escoamento dos produtos agrícolas para os centros comerciais e outras regiões.\n\nBioma Desertos\n\nTipo de plantio: O tipo de plantio predominante é o plantio adaptado às condições áridas e de solo arenoso.\nAlguns exemplos de plantios nesse bioma incluem: Algodão e o Milho.\n\nAlimentos provenientes dos plantios: Frutas e vegetais resistentes à seca: Algumas frutas e vegetais adaptados à seca, como melões, uvas, tâmaras e figos, podem ser cultivados em pequenas áreas irrigadas nos desertos. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada nesse bioma é a irrigação por gotejamento ou outras formas de irrigação eficiente, que minimizam o desperdício de água. \n\nCentros comerciais próximos: Urumqi, Yinchuan, Lanzhou e Dunhuang.\n\nMeios de transporte mais adequados: Os meios de transporte mais adequados na região incluem o transporte rodoviário e ferroviário.\n\nBioma Montanhas e planaltos\n\nTipo de plantio: O tipo de plantio por bioma pode variar dependendo da altitude, clima e solo específicos de cada região. No entanto, algumas culturas comuns nesse bioma incluem: Cereais: Culturas como trigo, milho, cevada e aveia são comumente cultivadas nas áreas de montanhas e planaltos. Leguminosas: Feijão, lentilha e ervilha são exemplos de leguminosas que podem ser cultivadas nessas regiões. \n\nAlimentos provenientes dos plantios: Batata e o Chá.\n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada depende das características específicas de cada região, mas algumas práticas comuns incluem o cultivo em terraços para aproveitar o espaço nas encostas, o uso de sistemas de irrigação eficientes e a rotação de culturas para preservar a fertilidade do solo. \n\nCentros comerciais próximos: Quanto aos centros comerciais próximos, cidades como Xi'an, Chengdu, Lanzhou e Urumqi são importantes centros comerciais e logísticos na região norte da China, onde os produtos agrícolas das montanhas e planaltos podem ser comercializados. \n\nMeios de transporte mais adequados: Rodoviário, ferroviário e aéreo.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1685140264416",
+      "conditions": "@norte_china",
+      "dialog_node": "node_5_1685140572496",
+      "previous_sibling": "node_9_1685140569744"
+    },
+    {
+      "type": "standard",
+      "title": "Desinformação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Caro usuário, se você não sabe a região em que esta inserido no seu país, podemos lhe auxiliar pelo nosso SAC 0800 333 9009."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#desinformacao",
+      "dialog_node": "node_5_1685285534292"
+    },
+    {
+      "type": "standard",
+      "title": "Região Norte da África do Sul",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Norte: Savanas, Desertos\n\nBioma Savanas\n\nTipo de plantio: Nas savanas da região norte da África do Sul, um tipo comum de plantio é a agricultura de sequeiro, que se adapta às condições de chuvas irregulares. Os cultivos predominantes incluem cereais como milho, sorgo e milheto, além de leguminosas como feijão e amendoim. \n\nAlimentos provenientes dos plantios: Os cultivos nas savanas podem fornecer uma variedade de alimentos, como grãos (milho, sorgo), leguminosas (feijão, amendoim) e outros produtos agrícolas, como batatas, abóboras e hortaliças de clima seco. \n\nTécnica de plantação mais adequada: Devido à irregularidade das chuvas, técnicas de conservação de água são essenciais para a agricultura nessas áreas. A utilização de técnicas como a agricultura de conservação, o plantio direto e o uso de sistemas de irrigação eficientes, como gotejamento, pode ajudar a maximizar o uso da água e aumentar a produtividade dos cultivos. \n\nCentros comerciais próximos: Alguns centros comerciais próximos à região norte da África do Sul incluem cidades como Polokwane, Nelspruit e Phalaborwa. Essas cidades podem servir como importantes pontos de venda e comércio de produtos agrícolas das savanas. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região norte da África do Sul são o transporte rodoviário e ferroviário. A região possui uma rede de estradas e ferrovias bem desenvolvida, facilitando o transporte de produtos agrícolas para os centros comerciais e outros destinos.\n\nBioma Desertos\n\nTipo de plantio: Devido às condições áridas e ao clima desértico, o plantio predominante nessa região é a agricultura irrigada. Os principais cultivos que podem ser encontrados em oásis ou em áreas com acesso à água são tamareiras, oliveiras, figueiras, videiras e alguns tipos de grãos, como trigo e cevada. \n\nAlimentos provenientes dos plantios: Os alimentos cultivados nesses desertos incluem tâmaras, azeitonas, figos, uvas e cereais, como trigo e cevada. Além disso, em algumas áreas irrigadas, também é possível encontrar hortaliças e legumes adaptados ao clima árido. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada nessa região é a agricultura irrigada. A água é um recurso escasso, portanto, é essencial utilizar técnicas de irrigação eficientes, como sistemas de gotejamento ou aspersão, para maximizar o uso da água e evitar o desperdício. \n\nCentros comerciais próximos: Na região norte da África do Sul, existem vários centros comerciais importantes, como Joanesburgo e Pretória. Essas cidades possuem mercados, supermercados e outros estabelecimentos comerciais onde os produtos agrícolas podem ser vendidos e distribuídos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para essa região incluem o transporte rodoviário e ferroviário. A região possui uma rede de estradas e ferrovias bem desenvolvida, que facilita o transporte de produtos agrícolas dos desertos para os centros comerciais e outros destinos.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1685138799413",
+      "conditions": "@norte_africa",
+      "dialog_node": "node_6_1685139371186"
+    },
+    {
+      "type": "standard",
+      "title": "Região Oeste da República Democrática do Congo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oeste: Floresta tropical, Manguezais, \n\nBioma Floresta Tropical\n\nTipo de plantio: Na floresta tropical da região oeste da República Democrática do Congo, o tipo de plantio mais comum é a agricultura de subsistência, que visa suprir as necessidades básicas das comunidades locais. Os agricultores praticam o sistema de corte e queima, também conhecido como agricultura itinerante, onde eles desmatam uma área pequena da floresta para o cultivo de alimentos. Após alguns anos, eles deixam a terra descansar e se regenerar antes de repetir o processo em uma nova área. \n\nTipos de alimentos: Os alimentos cultivados na floresta tropical da região oeste da República Democrática do Congo podem incluir culturas como mandioca, inhame, banana, milho, feijão, amendoim, batata-doce, frutas tropicais, entre outros. Esses alimentos fornecem nutrientes essenciais e são importantes fontes de subsistência para as comunidades locais. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada na floresta tropical da região oeste da República Democrática do Congo é o sistema de corte e queima. No entanto, é importante destacar que essa prática pode ter impactos ambientais negativos, como a degradação do solo e a perda de biodiversidade. Portanto, é fundamental promover práticas agrícolas sustentáveis, como a agrofloresta e a agricultura de conservação, que buscam preservar a floresta e garantir a produtividade a longo prazo. \n\nCentros comerciais próximos: Os centros comerciais próximos à região oeste da República Democrática do Congo podem incluir cidades como Kinshasa, Mbandaka e Kisangani. Essas cidades possuem mercados locais onde os produtos agrícolas são comercializados e podem servir como pontos de venda e distribuição para os agricultores da região. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região oeste da República Democrática do Congo podem incluir o uso de estradas, rios e vias fluviais. As estradas podem conectar as áreas rurais aos centros urbanos, facilitando o transporte de produtos agrícolas. Os rios e vias fluviais também são importantes meios de transporte, permitindo a navegação para o comércio e transporte de produtos ao longo dos rios Congo, Ubangi e outros.\n\n\nBioma Manguezais\n\nTipo de plantio: Devido às condições salinas e alagadas dos manguezais, o plantio agrícola tradicional não é comum nesse bioma. Os manguezais são mais conhecidos por sua biodiversidade e importância como habitats naturais para diversas espécies marinhas e aves migratórias. \n\nAlimentos provenientes dos manguezais: Os manguezais fornecem uma variedade de alimentos valiosos, principalmente frutos do mar e outros recursos marinhos. Isso inclui peixes, caranguejos, camarões, moluscos, algas e algumas espécies de plantas adaptadas às condições salinas, como o arroz de mangue. \n\nTécnica de plantação mais adequada: Nos manguezais, não há uma técnica de plantação convencional devido às condições do solo e à salinidade da água. No entanto, em algumas áreas, é possível realizar a criação de mariscos, como ostras e mexilhões, por meio de sistemas de cultivo específicos. Além disso, a pesca e a coleta sustentável dos recursos marinhos são práticas comuns nos manguezais. \n\nCentros comerciais próximos: Os centros comerciais próximos à região oeste da República Democrática do Congo podem incluir cidades costeiras como Matadi e Boma. Essas cidades podem servir como pontos de encontro para a comercialização de frutos do mar e outros produtos provenientes dos manguezais. \n\nMeios de transporte mais adequados: Na região oeste da República Democrática do Congo, os meios de transporte mais adequados para acessar os manguezais e realizar atividades comerciais são as vias fluviais e marítimas. Barcos e embarcações são comumente utilizados para navegar pelos rios e ao longo da costa.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1685138805300",
+      "conditions": "@oeste_congo",
+      "dialog_node": "node_6_1685139897426",
+      "previous_sibling": "node_9_1685139893752"
+    },
+    {
+      "type": "standard",
+      "title": "Austrália ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em qual região da Austrália você vive?\n\n- Norte da Austrália \n- Ocidental da Austrália \n- Meridional da Austrália \n- Oriental da Austrália \n- Não sei "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685058582497",
+      "conditions": "@australia",
+      "dialog_node": "node_6_1685140260967",
+      "previous_sibling": "node_7_1685138805300"
+    },
+    {
+      "type": "standard",
+      "title": "Região Oriental da Austrália ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oriental: Floresta tropical úmida, \n\nBioma Floresta tropical e úmida\n\nTipo de plantio: Na floresta tropical e úmida da região oriental da Austrália, são cultivadas diversas culturas agrícolas, incluindo frutas tropicais, vegetais, cereais e plantas medicinais. Além disso, também é comum o plantio de árvores para produção de madeira. \n\nTipos de alimentos: Os alimentos cultivados nessa região podem incluir bananas, abacaxis, mangas, mamões e outras frutas tropicais. Vegetais como mandioca, batata-doce, quiabo e feijão também são cultivados. Além disso, culturas de grãos como arroz e milho também podem ser encontradas. Plantas medicinais e ervas aromáticas, como aloe vera e capim-limão, também são cultivadas. \n\nTécnica de plantação mais adequada: As técnicas de plantação mais adequadas na floresta tropical e úmida da região oriental da Austrália envolvem a preparação adequada do solo, a irrigação eficiente devido ao clima úmido, o manejo integrado de pragas e doenças e o controle de ervas daninhas. Além disso, o uso de sistemas de agrofloresta e rotação de culturas pode ser benéfico para a manutenção da biodiversidade e a saúde do solo. \n\nCentros comerciais próximos: Os centros comerciais mais próximos da região da floresta tropical e úmida da Austrália Oriental podem variar dependendo da localização específica. Geralmente, existem cidades e vilarejos onde os produtores podem comercializar seus produtos diretamente aos consumidores em mercados locais, feiras e supermercados. Além disso, existem distribuidores regionais e empresas de processamento de alimentos que adquirem esses produtos para venda e distribuição em uma escala maior. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região da floresta tropical e úmida da Austrália Oriental dependem da infraestrutura local, da distância até os centros comerciais e da natureza dos produtos agrícolas. Geralmente, os agricultores utilizam caminhões e veículos motorizados para transportar seus produtos agrícolas para os locais de venda, processamento ou armazenamento. Em áreas mais remotas, pode ser necessário o uso de transporte ferroviário ou marítimo para alcançar centros comerciais mais distantes.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1685140260967",
+      "conditions": "@oriental_australia",
+      "dialog_node": "node_6_1685140566006",
+      "previous_sibling": "node_10_1685140562831"
+    },
+    {
+      "type": "standard",
+      "title": "Região Oriental da China ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oriental:  Estepes\n\nBioma Estepes\n\nTipo de plantio: No bioma das estepes da região oriental da China, os principais cultivos são cereais e gramíneas adaptados a condições climáticas de verões quentes e secos. Os principais cultivos incluem trigo, cevada, milho, aveia, centeio e outros cereais. Também é comum o cultivo de gramíneas forrageiras para alimentação animal. \n\nAlimentos provenientes dos plantios: Os alimentos provenientes desses plantios incluem produtos derivados dos cereais, como pão, macarrão, farinha, cereais matinais e ração animal. Além disso, os cereais também podem ser utilizados para a produção de alimentos como cerveja e destilados.\n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada para as estepes da região oriental da China envolve o uso de práticas de conservação de água e manejo do solo. Devido às condições secas, é importante implementar sistemas eficientes de irrigação, como a irrigação por gotejamento e o uso de técnicas de cultivo mínimo para reduzir a evaporação da água do solo. Também são utilizadas práticas de rotação de culturas e o manejo adequado do solo para conservar os nutrientes e manter a produtividade. \n\nCentros comerciais próximos: Na região oriental da China, cidades como Pequim, Tianjin, Xangai e Jinan podem servir como centros comerciais para a comercialização dos produtos agrícolas provenientes das estepes. Essas cidades possuem infraestrutura comercial desenvolvida, mercados ativos e indústrias de processamento de alimentos que demandam os produtos agrícolas. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região das estepes da China oriental incluem o transporte rodoviário e ferroviário. A região possui uma rede de estradas e ferrovias bem desenvolvida, o que facilita o transporte dos produtos agrícolas para os centros comerciais e outros mercados. O transporte marítimo também pode ser utilizado, especialmente se os produtos forem exportados para outras regiões ou países.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1685140264416",
+      "conditions": "@oriental_china",
+      "dialog_node": "node_6_1685140578415",
+      "previous_sibling": "node_4_1685140575427"
+    },
+    {
+      "type": "standard",
+      "title": "Região Centro-Sul da China ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Centro-Sul: Floresta Subtropical, Montanhas e planaltos\n\n\nBioma Floresta Subtropical\n\nTipo de plantio: No bioma da floresta subtropical da região centro sul da China, são cultivados uma variedade de culturas agrícolas. Alguns exemplos comuns incluem arroz, chá, frutas cítricas (como laranjas, tangerinas e limões), legumes, cana-de-açúcar, bambu e outras culturas subtropicais. Essas culturas se adaptam bem ao clima quente e úmido da região. \n\nAlimentos provenientes dos plantios: Os alimentos provenientes desses plantios incluem arroz (um dos principais alimentos básicos na China), chá (amplamente consumido na região), frutas cítricas frescas ou processadas (como sucos e conservas), legumes frescos e processados, açúcar derivado da cana-de-açúcar e produtos à base de bambu, como brotos de bambu e chá de bambu. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada para a floresta subtropical da região centro sul da China envolve a gestão adequada da água, devido ao clima úmido. O cultivo de arroz é comumente realizado em campos inundados para fornecer um ambiente ideal para o crescimento do arroz. Além disso, a rotação de culturas e o manejo sustentável do solo são práticas importantes para garantir a produtividade a longo prazo. \n\nCentros comerciais próximos: Na região centro sul da China, cidades como Guangzhou, Shenzhen, Hong Kong e Wuhan são importantes centros comerciais e econômicos. Essas cidades possuem mercados ativos, indústrias de processamento de alimentos e uma rede de distribuição estabelecida, o que facilita a comercialização dos produtos agrícolas provenientes da floresta subtropical. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região da floresta subtropical da China centro sul incluem o transporte rodoviário, ferroviário e hidroviário. A região possui uma infraestrutura de transporte desenvolvida, com estradas e ferrovias que conectam as áreas de produção agrícola aos centros comerciais.\n\nBioma Montanhas e planaltos\n\nTipo de plantio: Nas montanhas e planaltos da região centro sul da China, são cultivadas uma variedade de culturas agrícolas adaptadas às condições locais. Isso inclui cultivos como arroz, trigo, milho, batata, feijão, vegetais de folhas verdes, frutas (como maçãs, peras, pêssegos) e chá. Além disso, algumas áreas podem ser dedicadas ao cultivo de plantas medicinais e ervas. \n\nAlimentos provenientes dos plantios: Os alimentos provenientes desses plantios incluem arroz, que é um alimento básico na China, e grãos como trigo e milho, que são usados para fazer pães, massas e outros produtos derivados. As batatas são uma fonte importante de carboidratos, enquanto os vegetais de folhas verdes fornecem nutrientes essenciais.\n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada para as montanhas e planaltos da região centro sul da China depende das características específicas do terreno. O uso de terraços agrícolas em encostas íngremes é comum, permitindo o cultivo em níveis escalonados. A conservação do solo, controle de erosão e manejo adequado da água são práticas importantes nessa região. Além disso, a rotação de culturas e a diversificação agrícola podem ajudar a maximizar a produtividade e a sustentabilidade. \n\nCentros comerciais próximos: Na região centro sul da China, cidades como Chengdu, Chongqing, Guiyang e Kunming são importantes centros comerciais. Essas cidades têm mercados ativos e uma infraestrutura comercial estabelecida para a compra, venda e distribuição de produtos agrícolas das áreas de montanhas e planaltos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região das montanhas e planaltos da China centro sul incluem o transporte rodoviário e ferroviário. A região possui uma rede de estradas e ferrovias que conectam as áreas de produção agrícola aos centros comerciais e aos principais centros urbanos. O transporte rodoviário é importante para o acesso às áreas montanhosas, enquanto o transporte ferroviário oferece opções de transporte em larga escala.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1685140264416",
+      "conditions": "@centro_sul_china",
+      "dialog_node": "node_6_1685140581185",
+      "previous_sibling": "node_6_1685140578415"
+    },
+    {
+      "type": "standard",
+      "title": "Elogios ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ficamos muito felizes e gratos que tenha gostado do serviço em que prestamos. Esperamos ter ajudado:)\n"
+              },
+              {
+                "text": "Muito massa, né?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#elogios",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1685197886800",
+      "previous_sibling": "node_7_1685196526734"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agora sim estamos apresentados $nome! Estamos contente em ter você aqui conosco! Para solicitar sua pesquisa nos informe o continente em que você habita!\n\n- África\n- América \n- Ásia \n- Europa \n- Oceania "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1685056548608",
+      "context": {
+        "nome": "@nome_usuario.literal"
+      },
+      "conditions": "@nome_usuario",
+      "dialog_node": "node_7_1685056691832"
+    },
+    {
+      "type": "standard",
+      "title": "República Democrática do Congo ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em qual região da República Democrática do Congo você vive?\n\n- Norte da República Democrática do Congo\n- Sul da República Democrática do Congo\n- Leste da República Democrática do Congo\n- Oeste da República Democrática do Congo\n- Não sei "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685058582497",
+      "conditions": "@republica_democratica_congo",
+      "dialog_node": "node_7_1685138805300",
+      "previous_sibling": "node_4_1685138802430"
+    },
+    {
+      "type": "standard",
+      "title": "Região Norte do Egito ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Norte: Deserto do Saara\n\nBioma Deserto\n\nTipo de plantio: No bioma deserto da região norte do Egito, o plantio agrícola é geralmente limitado a áreas irrigadas ou oásis. As principais culturas nessa região incluem oliveiras, palmeiras, tamareiras, figueiras, alfafa e outras plantas tolerantes à seca. \n\nTipos de alimentos: Os alimentos cultivados nessa região podem incluir azeitonas, tâmaras, figos e produtos derivados dessas frutas, como azeite de oliva e doces de tâmara. Além disso, a alfafa é cultivada para alimentação animal. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada na região desértica do norte do Egito é o uso de sistemas eficientes de irrigação, como a irrigação por gotejamento e a captação de água de nascentes ou poços. O manejo cuidadoso da água é essencial para garantir a sobrevivência das plantas em condições áridas. Além disso, o uso de técnicas de conservação do solo, como o uso de cobertura morta e a construção de terraços, pode ajudar a reter a umidade e reduzir a erosão. \n\nCentros comerciais próximos: Os centros comerciais mais próximos da região desértica do norte do Egito variam dependendo da localização específica. Geralmente, existem mercados locais nas cidades e vilarejos próximos, onde os produtores podem comercializar seus produtos diretamente aos consumidores. Além disso, existem centros comerciais regionais e cidades maiores onde os produtos agrícolas podem ser vendidos em maior escala. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região desértica do norte do Egito dependem da infraestrutura local, da distância até os centros comerciais e da natureza dos produtos agrícolas. Geralmente, os produtores utilizam caminhões e veículos motorizados para transportar seus produtos agrícolas para os locais de venda. Em áreas mais remotas ou com difícil acesso, podem ser necessários meios de transporte alternativos, como camelos e dromedários, especialmente em oásis ou áreas de difícil acesso.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685138802430",
+      "conditions": "@norte_egito",
+      "dialog_node": "node_7_1685139561040"
+    },
+    {
+      "type": "standard",
+      "title": "Região Oeste da Inglaterra ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oeste: Paisagem costeira, Cotswolds.\n\nBioma Paisagem costeira\n\nTipo de plantio: Nas paisagens costeiras da região oeste da Inglaterra, é comum o cultivo de culturas adaptadas a solos salinos e ventos costeiros. Exemplos de plantio incluem vegetais resistentes ao sal, como batatas, cenouras, nabos e ervas aromáticas, além de culturas como trigo, aveia e cevada.\n\nAlimentos provenientes dos plantios: Os alimentos provenientes desses plantios incluem batatas, cenouras, nabos e ervas aromáticas, que são utilizados tanto para consumo fresco como para processamento em produtos alimentícios. Além disso, as culturas de trigo, aveia e cevada podem ser utilizadas para a produção de grãos, farinhas e outros produtos derivados. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada na paisagem costeira pode envolver o uso de técnicas de drenagem para lidar com a salinidade do solo, como a construção de diques e canais de drenagem. Além disso, pode ser necessário o uso de barreiras contra o vento para proteger as culturas dos fortes ventos costeiros. \n\nCentros comerciais próximos: Na região oeste da Inglaterra, próximos às paisagens costeiras, existem diversos centros comerciais onde é possível encontrar mercados, supermercados, feiras locais e estabelecimentos especializados em produtos agrícolas. Alguns exemplos de centros comerciais são Bristol, Plymouth e Exeter. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para essa região incluem caminhões refrigerados ou veículos especiais para transportar os alimentos colhidos nas paisagens costeiras até os centros comerciais e mercados. Além disso, a região possui uma boa infraestrutura rodoviária e também pode contar com o transporte marítimo para o escoamento dos produtos agrícolas.\n\nBioma Cotswolds\n\nTipo de plantio: Nas colinas e vales de Cotswolds, é comum o cultivo de pastagens e campos agrícolas. Essas áreas são frequentemente utilizadas para a criação de gado, como ovelhas e bovinos, e para o cultivo de grãos, como trigo e cevada. \n\nAlimentos provenientes dos plantios: Os principais alimentos provenientes desses plantios são produtos lácteos, carne de cordeiro e carne bovina. Além disso, o trigo e a cevada cultivados na região podem ser utilizados na produção de farinha, cerveja e outros produtos derivados. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada nas colinas de Cotswolds depende do tipo de cultivo. Para as pastagens, é importante adotar práticas de manejo sustentáveis, como rotação de pastagens e manejo adequado do gado. Para o cultivo de grãos, técnicas modernas de plantio e manejo, como o uso de máquinas agrícolas eficientes e práticas de conservação do solo, são comumente aplicadas. \n\nCentros comerciais próximos: Na região oeste da Inglaterra, próximos a Cotswolds, existem vários centros comerciais onde é possível encontrar produtos agrícolas locais, mercados de agricultores e lojas especializadas. Alguns exemplos de centros comerciais incluem as cidades de Cheltenham, Gloucester e Bath. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região de Cotswolds incluem caminhões e veículos agrícolas para o transporte de produtos agrícolas, além de transporte ferroviário para o escoamento de produtos a longa distância. A região também é famosa por suas trilhas e caminhos rurais, que podem ser utilizados para transporte local de produtos agrícolas e turismo.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1685141412372",
+      "conditions": "@oeste_inglaterra",
+      "dialog_node": "node_7_1685141712724",
+      "previous_sibling": "node_8_1685141708400"
+    },
+    {
+      "type": "standard",
+      "title": "Doações ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você pode ajudar a nossa causa fazendo uma doação pelo nosso site localiza&auxilia.com.br ou procurar por uma de nossas ONG´s parceiras."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#doacoes",
+      "dialog_node": "node_7_1685196526734",
+      "previous_sibling": "node_1_1685196071850"
+    },
+    {
+      "type": "standard",
+      "title": "Região Centro Oeste do Brasil ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Centro-Oeste: Cerrado, Pantanal\n\nBioma: Cerrado \n\nTipo de plantio: No bioma Cerrado, os tipos de plantio mais comuns são os de grãos, como soja, milho, feijão e arroz. Além disso, também são cultivadas frutas tropicais, como o pequi e o caju, e há plantações de eucalipto para fins industriais, como a produção de papel e celulose. \n\nTipos de alimentos desses plantios: Os plantios no Cerrado fornecem alimentos como soja, milho, feijão e arroz, que são componentes essenciais na alimentação humana e animal. A soja é uma cultura bastante expressiva na região, sendo destinada tanto para consumo humano quanto para a produção de óleo e ração animal. O milho é utilizado na alimentação humana, na produção de ração animal e na indústria de biocombustíveis. O feijão é uma importante fonte de proteína vegetal na dieta brasileira, enquanto o arroz é consumido como alimento básico em muitas regiões do país. O pequi e o caju são frutas típicas do Cerrado e têm valor gastronômico e cultural na região. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada no Cerrado é o sistema de plantio direto, que consiste em evitar o revolvimento do solo e manter a cobertura vegetal sobre ele. Essa técnica ajuda a preservar a estrutura do solo, reduzir a erosão e conservar a umidade, características importantes em um bioma com períodos de seca. \n\nCentros comerciais próximos: Os centros comerciais próximos da região do Cerrado incluem cidades como Brasília, Goiânia, Cuiabá e Campo Grande. Essas cidades são importantes polos comerciais e oferecem acesso a mercados regionais e serviços. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados na região do Cerrado são o transporte rodoviário e o transporte ferroviário. A região possui uma boa malha rodoviária, facilitando o transporte de produtos agrícolas para os centros comerciais e para exportação. Além disso, o transporte ferroviário é relevante para o escoamento de commodities agrícolas, como a soja e o milho. O transporte aéreo também é utilizado para conectar áreas mais distantes e para o transporte de pessoas e produtos mais sensíveis.\n\n\nBioma: Pantanal\n\nTipo de plantio: No bioma Pantanal, o plantio predominante é o de pastagens nativas e exóticas para a criação de gado de corte. O Pantanal é uma das maiores áreas de pecuária extensiva do Brasil, onde ocorre a criação de bovinos. \n\nTipos de alimentos desses plantios: O principal produto agrícola do Pantanal é a carne bovina. A criação de gado de corte é uma atividade econômica importante na região, e a carne produzida é utilizada tanto para consumo interno quanto para exportação. Além disso, a região também produz leite e seus derivados, como queijos e manteiga. \n\nTécnica de plantação mais adequada: No Pantanal, a técnica de plantação mais adequada é o manejo de pastagens. Isso inclui a seleção e o cuidado das espécies de gramíneas adaptadas ao ambiente pantaneiro, além de práticas de manejo adequadas, como a rotação das áreas de pastagem, o controle do pastejo e o manejo da água. \n\nCentros comerciais próximos: Os centros comerciais mais próximos do Pantanal estão localizados em cidades como Cuiabá, Corumbá e Campo Grande. Essas cidades são importantes polos comerciais na região Centro-Oeste do Brasil e oferecem acesso a mercados, serviços e infraestrutura para o comércio de produtos agrícolas e pecuários. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados na região do Pantanal são o transporte rodoviário, fluvial e aéreo. A região possui uma infraestrutura rodoviária razoável, permitindo o transporte de mercadorias e animais por meio de estradas. Além disso, devido à presença de rios e áreas alagadas, o transporte fluvial é utilizado para o deslocamento de pessoas e para o transporte de mercadorias em regiões mais remotas do Pantanal. O transporte aéreo também é relevante para conectar áreas mais distantes e para o transporte de pessoas e produtos mais sensíveis ou de maior valor agregado.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1685111224845",
+      "conditions": "@centro_oeste_brasil",
+      "dialog_node": "node_8_1685113200303",
+      "previous_sibling": "node_2_1685113039190"
+    },
+    {
+      "type": "standard",
+      "title": "Região Leste de Cuba ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\nLeste: Florestas tropicais, \n\nBioma Florestas tropicais:\n\nTipo de plantio: Nas florestas tropicais da região Leste de Cuba, é comum o cultivo em pequenas clareiras ou roçados. Essas áreas abertas são criadas pela remoção seletiva da vegetação nativa para permitir o plantio de culturas agrícolas. \n\nTipos de alimentos: Nas florestas tropicais, os agricultores cultivam uma variedade de alimentos, incluindo mandioca, batata-doce, milho, banana, abacaxi, mamão, café e cacau. Além disso, ervas medicinais e plantas para artesanato também podem ser cultivadas. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada nas florestas tropicais da região Leste de Cuba depende da vegetação existente e da disponibilidade de recursos. Geralmente, a técnica de derruba e queima é utilizada, onde a vegetação é cortada e queimada para limpar a área antes do plantio. No entanto, é importante ressaltar que as práticas agrícolas sustentáveis e o manejo adequado dos recursos naturais são cruciais para minimizar os impactos negativos na floresta tropical. \n\nCentros comerciais próximos: Os centros comerciais mais próximos das florestas tropicais no leste de Cuba podem variar dependendo da localização específica. Geralmente, as áreas rurais próximas às florestas tropicais têm mercados locais onde os agricultores podem vender seus produtos. Além disso, existem centros urbanos maiores, como Santiago de Cuba, onde os produtos agrícolas podem ser comercializados em feiras, supermercados e outros estabelecimentos comerciais. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para as florestas tropicais podem variar dependendo do acesso às áreas cultivadas. Em geral, os agricultores podem usar veículos motorizados, como caminhões, para transportar seus produtos agrícolas para os centros comerciais mais próximos. No entanto, em áreas mais remotas ou de difícil acesso, podem ser necessários meios de transporte alternativos, como barcos fluviais ou até mesmo o uso de animais de carga, como burros ou mulas comerciais e meios de transporte.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1685111826562",
+      "conditions": "@leste_cuba",
+      "dialog_node": "node_8_1685137451403",
+      "previous_sibling": "node_5_1685137411376"
+    },
+    {
+      "type": "standard",
+      "title": "França",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em qual região da França você vive?\n\n- Norte da França \n- Sul da França\n- Leste da França \n- Oeste da França \n- Não sei "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685058582497",
+      "conditions": "@franca",
+      "dialog_node": "node_8_1685141416034",
+      "previous_sibling": "node_9_1685141412372"
+    },
+    {
+      "type": "standard",
+      "title": "Região Norte da Inglaterra",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Norte: Montanhas e colinas, Moorlands (são extensas áreas de planaltos cobertos por vegetação rasteira, charnecas e turfeiras)\n\n\nBioma Montanhas e colinas\n\nTipo de plantio: Nas montanhas e colinas da região norte da Inglaterra, o tipo de plantio predominante é a agricultura de pastagens. Os agricultores geralmente cultivam gramíneas e forrageiras para alimentar o gado e outros animais criados na região. \n\nAlimentos provenientes dos plantios: Os alimentos produzidos nessas pastagens são principalmente destinados à alimentação animal. O gado criado nessas áreas é usado para a produção de carne, leite e lã. Além disso, algumas áreas podem cultivar culturas de cereais, como trigo, cevada e aveia, além de legumes e hortaliças. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada nas montanhas e colinas da região norte da Inglaterra é o manejo das pastagens. Isso envolve a manutenção adequada da vegetação natural, a rotação de pastagens e o controle da quantidade de animais que pastam em determinadas áreas para evitar a degradação do solo e garantir a sustentabilidade do ecossistema. \n\nCentros comerciais próximos: Existem vários centros comerciais e mercados na região norte da Inglaterra, onde os agricultores podem comercializar seus produtos. Alguns exemplos de cidades com infraestrutura comercial desenvolvida incluem Manchester, Leeds, Newcastle, Sheffield e Liverpool. Essas cidades possuem mercados locais, supermercados, feiras agrícolas e outras instalações de comércio onde os produtos agrícolas podem ser vendidos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados na região norte da Inglaterra são o transporte rodoviário e ferroviário. As estradas e ferrovias conectam as áreas rurais às cidades e centros comerciais, permitindo o transporte eficiente dos produtos agrícolas. Além disso, em áreas remotas ou de difícil acesso, pode-se utilizar veículos agrícolas específicos, como tratores, para auxiliar no transporte dentro das propriedades.\n\n\nBioma Moorlands\n\nTipo de plantio: Devido às condições desfavoráveis, o plantio tradicional de culturas agrícolas é limitado nas terras altas da região norte da Inglaterra. Em vez disso, a criação de ovinos é uma atividade comum nessa área, aproveitando a vegetação natural de pastagens rasteiras. Os rebanhos de ovelhas são criados para produção de carne, lã e laticínios. \n\nAlimentos provenientes dos plantios: Os alimentos produzidos nas terras altas do norte da Inglaterra estão principalmente relacionados à criação de ovinos. A carne de cordeiro, lã e produtos lácteos, como queijo e iogurte de ovelha, são exemplos de alimentos obtidos a partir dessa atividade. \n\nTécnica de plantação mais adequada: Dada a natureza das terras altas, a técnica de plantação mais adequada é a conservação e manejo das pastagens naturais. Isso envolve garantir a preservação da vegetação rasteira e arbustos, a fim de manter a qualidade das pastagens para a alimentação dos rebanhos. Também é importante adotar práticas de manejo sustentáveis, como a rotação de pastagens, para evitar o superpastejo e permitir a recuperação das áreas de pastagem. \n\nCentros comerciais próximos: Os centros comerciais próximos às terras altas do norte da Inglaterra incluem cidades como Manchester, Leeds, Newcastle e Sheffield. Essas cidades possuem mercados locais, supermercados e instalações de comércio onde os produtos relacionados à criação de ovinos podem ser vendidos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados na região norte da Inglaterra, incluindo as terras altas, são o transporte rodoviário e o transporte ferroviário. As estradas e ferrovias conectam as áreas rurais às cidades, facilitando o transporte de animais, produtos agrícolas e laticínios para os centros comerciais. Além disso, é comum o uso de veículos especializados para lidar com terrenos acidentados, como tratores e veículos utilitários.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1685141412372",
+      "conditions": "@norte_inglaterra",
+      "dialog_node": "node_8_1685141702021"
+    },
+    {
+      "type": "standard",
+      "title": "Região Leste da Inglaterra ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Leste: Planícies férteis, Zonas úmidas costeiras, \n\n\nBioma Planícies férteis\n\nTipo de plantio: Nas planícies férteis da região leste da Inglaterra, os principais tipos de plantio incluem cereais, como trigo, cevada e aveia, além de culturas como beterraba açucareira, batata, legumes, vegetais de folhas verdes e outros produtos agrícolas de grande importância. \n\nAlimentos provenientes dos plantios: Os alimentos provenientes desses plantios incluem grãos de cereais utilizados na produção de pães, massas e outros alimentos à base de trigo. Além disso, as beterrabas açucareiras são utilizadas na produção de açúcar e a batata e os vegetais são amplamente consumidos como alimentos frescos e processados. \n\nTécnica de plantação mais adequada: A técnica de plantação mais comum nessas planícies férteis é a semeadura direta ou o plantio em linhas, onde as sementes são semeadas diretamente no solo ou em linhas espaçadas, permitindo um bom desenvolvimento das plantas e facilitando a colheita. \n\nCentros comerciais próximos: Na região leste da Inglaterra, há diversos centros comerciais próximos às áreas agrícolas. Alguns exemplos incluem Norwich, Cambridge, Peterborough e Lincoln, onde é possível encontrar mercados, supermercados, cooperativas agrícolas e outros locais de venda de produtos agrícolas.\n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para essa região incluem caminhões, tratores e veículos agrícolas para o transporte dos produtos agrícolas e maquinários. Além disso, a região possui uma boa infraestrutura rodoviária e ferroviária, o que facilita o transporte para centros comerciais e áreas urbanas.\n\n\n\nBioma Zonas úmidas costeiras\n\nTipo de plantio: Nas zonas úmidas costeiras da região leste da Inglaterra, o tipo de plantio mais comum é o cultivo de vegetais, frutas e plantas que se adaptam bem a ambientes úmidos, como aspargos, alcachofras, alfaces, morangos, mirtilos, framboesas, entre outros. Além disso, pode haver também o cultivo de plantas ornamentais e flores.\n\nAlimentos provenientes dos plantios: Os alimentos provenientes desses plantios incluem vegetais frescos, como aspargos, alcachofras e alfaces, frutas como morangos, mirtilos e framboesas, que são utilizados tanto para consumo in natura como para processamento em produtos alimentícios, como geleias e sucos. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada nas zonas úmidas costeiras pode incluir o cultivo em canteiros elevados, para garantir uma drenagem adequada do solo e evitar o excesso de umidade. Além disso, pode ser necessário implementar sistemas de irrigação eficientes para fornecer água às plantas. \n\nCentros comerciais próximos: Na região leste da Inglaterra, próximos às zonas úmidas costeiras, existem diversos centros comerciais onde é possível encontrar mercados, supermercados, feiras locais e estabelecimentos especializados em produtos agrícolas. Alguns exemplos de centros comerciais são Norwich, Great Yarmouth e Lowestoft. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para essa região incluem caminhões refrigerados ou veículos especiais para transportar os alimentos frescos colhidos nas zonas úmidas costeiras até os centros comerciais e mercados. Além disso, a região possui uma boa infraestrutura rodoviária, o que facilita o transporte de produtos agrícolas.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1685141412372",
+      "conditions": "@leste_inglaterra",
+      "dialog_node": "node_8_1685141708400",
+      "previous_sibling": "node_4_1685141705665"
+    },
+    {
+      "type": "standard",
+      "title": "Solicitação da pesquisa ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para iniciarmos a pesquisa por favor nos informe o seu nome e sobrenome. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#solicitacao_da_pesquisa",
+      "dialog_node": "node_9_1685056548608",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Cuba ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em qual região de Cuba você vive?\n\n- Centro de Cuba \n- Leste de Cuba \n- Oeste de Cuba \n- Não sei "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685058582497",
+      "conditions": "@cuba",
+      "dialog_node": "node_9_1685111826562",
+      "previous_sibling": "node_1_1685111224845"
+    },
+    {
+      "type": "standard",
+      "title": "Região Nordeste dos EUA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\nNordeste: Florestas temperadas, Bosques e áreas úmidas\n\nBioma Florestas temperadas\n\nTipo de plantio: Nas florestas temperadas da região nordeste dos Estados Unidos, o plantio agrícola é geralmente limitado, pois a vegetação florestal é predominante. No entanto, em áreas abertas ou desmatadas, podem ser cultivadas diversas culturas agrícolas, como milho, trigo, aveia, cevada, batata, maçã, mirtilo, cranberry, legumes, hortaliças e ervas aromáticas. \n\nTipos de alimentos: Os alimentos cultivados nessas áreas incluem milho, trigo, aveia, cevada e outros grãos. Além disso, as frutas como maçãs, mirtilos, cranberries, pêssegos, peras e cerejas são cultivadas em pomares. Também são cultivados vegetais como batatas, cenouras, brócolis, abobrinha e alface, além de ervas aromáticas como manjericão, salsa e tomilho. \n\nTécnica de plantação mais adequada: As técnicas de plantação mais adequadas variam dependendo das culturas específicas. No caso de culturas como milho, trigo e grãos, a técnica de plantio direto é comumente utilizada para preservar a estrutura do solo e reduzir a erosão. No cultivo de frutas e hortaliças, podem ser empregadas técnicas de plantio em fileiras ou canteiros elevados, além do manejo integrado de pragas e doenças. \n\nCentros comerciais próximos: Os centros comerciais mais próximos das florestas temperadas na região nordeste dos Estados Unidos podem variar dependendo da localização específica. Geralmente, existem cidades e vilarejos agrícolas onde os produtores podem comercializar seus produtos diretamente aos consumidores em mercados locais, feiras e lojas de produtos agrícolas. Além disso, existem distribuidores regionais, supermercados e restaurantes que adquirem esses alimentos para venda aos consumidores. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região nordeste dos Estados Unidos dependem da infraestrutura local e da distância até os centros comerciais. Geralmente, os agricultores utilizam caminhões e veículos motorizados para transportar seus produtos agrícolas para os locais de venda ou processamento.\n\nBiomas Bosques e áreas úmidas\n\nTipo de plantio: Nas áreas de bosques e áreas úmidas do nordeste dos Estados Unidos, o plantio agrícola pode ser limitado devido à predominância da vegetação natural. No entanto, em áreas abertas ou desmatadas, podem ser cultivados culturas agrícolas como milho, trigo, aveia, cevada, batata, abóbora, feijão, além de hortaliças e legumes diversos. \n\nTipos de alimentos: Os alimentos cultivados nessas áreas podem incluir milho, trigo, aveia, cevada e outros grãos. Além disso, são cultivadas batatas, abóboras, feijões, ervilhas, além de hortaliças como alface, espinafre, brócolis e couve-flor. Também podem ser encontradas frutas como maçãs, pêssegos, amoras e mirtilos. \n\nTécnica de plantação mais adequada: As técnicas de plantação mais adequadas variam dependendo das culturas específicas e das características do solo e clima local. Em geral, técnicas de plantio em fileiras ou canteiros elevados são utilizadas para o cultivo de hortaliças e legumes. Em áreas com solos úmidos, técnicas de drenagem podem ser necessárias para o plantio bem-sucedido de culturas agrícolas.\n\nCentros comerciais próximos: Os centros comerciais mais próximos das áreas de bosques e áreas úmidas do nordeste dos Estados Unidos podem variar dependendo da localização específica. Geralmente, existem cidades e vilarejos agrícolas onde os produtores podem comercializar seus produtos diretamente aos consumidores em mercados locais, feiras e lojas de produtos agrícolas.\n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região nordeste dos Estados Unidos dependem da infraestrutura local e da distância até os centros comerciais. Geralmente, os agricultores utilizam caminhões e veículos motorizados para transportar seus produtos agrícolas para os locais de venda ou processamento. Além disso, em algumas áreas, pode haver acesso a redes ferroviárias e hidrovias para o transporte em larga escala.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685111861154",
+      "conditions": "@nordeste_eua",
+      "dialog_node": "node_9_1685138227250",
+      "previous_sibling": "node_10_1685138215473"
+    },
+    {
+      "type": "standard",
+      "title": "Região Sul dos EUA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sul: Florestas temperadas e subtropicais, Pântanos e áreas úmidas\n\nBioma florestas temperadas e subtropicais\n\nTipo de plantio: O plantio agrícola na região sul dos Estados Unidos em florestas temperadas e subtropicais pode envolver uma variedade de culturas. Alguns exemplos comuns incluem milho, trigo, arroz, feijão, batata, amendoim, algodão, frutas cítricas (como laranjas e limões) e culturas tropicais como abacaxi, banana e manga em áreas subtropicais específicas. \n\nTipos de alimentos: Os alimentos cultivados nessas áreas podem incluir grãos como milho, trigo, arroz e feijão, que são amplamente utilizados na alimentação humana e animal. Além disso, são cultivadas batatas, amendoim e algodão, sendo este último utilizado principalmente para a produção de fibras têxteis. Em áreas subtropicais específicas, as frutas cítricas e outras frutas tropicais também podem ser cultivadas. \n\nTécnica de plantação mais adequada: As técnicas de plantação mais adequadas dependem das culturas específicas, mas algumas práticas comuns incluem o plantio em fileiras, rotação de culturas e o uso de sistemas de irrigação para as áreas mais secas. Além disso, em áreas com florestas subtropicais, pode ser necessário levar em consideração os desafios relacionados à umidade e às altas temperaturas. \n\nCentros comerciais próximos: Os centros comerciais mais próximos da região sul dos Estados Unidos variam dependendo do estado e da localização específica. Geralmente, existem cidades e vilarejos agrícolas onde os produtores podem comercializar seus produtos diretamente aos consumidores em mercados locais, feiras e lojas de produtos agrícolas. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região sul dos Estados Unidos dependem da infraestrutura local, da distância até os centros comerciais e das características das culturas cultivadas. Geralmente, os agricultores utilizam caminhões e veículos motorizados para transportar seus produtos agrícolas para os locais de venda, processamento ou armazenamento.\n\nBioma Pântanos e áreas úmidas\n\nTipo de plantio: Nas áreas de pântanos e áreas úmidas do sul dos Estados Unidos, o plantio agrícola é geralmente desafiador devido às condições úmidas e à dificuldade de drenagem do solo. No entanto, em áreas com solos mais elevados e menos encharcados, podem ser cultivadas culturas como arroz, cana-de-açúcar, milho, feijão, tomate, pimentão, abóbora, melancia e legumes de folhas verdes. \n\nTipos de alimentos: Os alimentos cultivados nessas áreas incluem o arroz, que é uma cultura importante em pântanos e áreas úmidas. Além disso, podem ser cultivadas culturas como cana-de-açúcar, milho, feijão, tomate, pimentão, abóbora, melancia e diversos legumes de folhas verdes, como espinafre, couve e alface. \n\nTécnica de plantação mais adequada: Devido às condições úmidas e aos solos encharcados, as técnicas de plantação mais adequadas para os pântanos e áreas úmidas incluem o uso de sistemas de drenagem, a construção de diques e canais para controlar o fluxo de água e evitar a inundação excessiva. Além disso, o cultivo do arroz geralmente envolve o uso de técnicas de irrigação específicas, como o plantio em campos alagados.\n\nCentros comerciais próximos: Os centros comerciais mais próximos das áreas de pântanos e áreas úmidas do sul dos Estados Unidos podem variar dependendo da localização específica. Geralmente, existem cidades e vilarejos próximos onde os produtores podem comercializar seus produtos diretamente aos consumidores em mercados locais, feiras e lojas de produtos agrícolas.\n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região de pântanos e áreas úmidas dependem da infraestrutura local e das distâncias até os centros comerciais. Geralmente, os agricultores utilizam caminhões e veículos motorizados para transportar seus produtos agrícolas para os locais de venda, processamento ou armazenamento. Em áreas com hidrovias navegáveis, o transporte fluvial pode ser uma opção viável para o transporte em larga escala.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685111861154",
+      "conditions": "@sul_eua",
+      "dialog_node": "node_9_1685138237573",
+      "previous_sibling": "node_9_1685138227250"
+    },
+    {
+      "type": "standard",
+      "title": "Região Sul do Egito ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sul: Deserto do Saara, Vale do Nilo, \n\nBioma Deserto\n\nTipo de plantio: No bioma deserto da região sul do Egito, o plantio agrícola é geralmente limitado a áreas irrigadas e oásis. Culturas como palmeiras, tamareiras, oliveiras, figueiras, legumes, como feijão e lentilha, e alguns vegetais resistentes ao calor, como pimentas e berinjelas, podem ser cultivados. \n\nTipos de alimentos: Os alimentos cultivados nessa região podem incluir tâmaras, azeitonas, figos, legumes, como feijão e lentilha, e alguns vegetais resistentes ao calor, como pimentas e berinjelas. Além disso, em algumas áreas irrigadas, pode haver cultivo de frutas e vegetais mais tradicionais, como melões e pepinos. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada na região desértica do sul do Egito é o uso eficiente da água. A irrigação por gotejamento e outros sistemas de irrigação controlada são amplamente utilizados para conservar água e fornecer a quantidade necessária para as plantas. Além disso, o uso de técnicas de conservação do solo, como cobertura morta e construção de terraços, pode ajudar a reter a umidade e reduzir a erosão. \n\nCentros comerciais próximos: Os centros comerciais mais próximos da região desértica do sul do Egito podem variar dependendo da localização específica. Geralmente, existem mercados locais nas cidades e vilarejos próximos, onde os produtores podem comercializar seus produtos diretamente aos consumidores. Além disso, cidades maiores, como Luxor e Aswan, podem servir como centros comerciais regionais, onde os produtos agrícolas podem ser vendidos em maior escala. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região desértica do sul do Egito dependem da infraestrutura local, da distância até os centros comerciais e da natureza dos produtos agrícolas. Geralmente, os produtores utilizam caminhões e veículos motorizados para transportar seus produtos agrícolas para os locais de venda. Em áreas mais remotas ou com difícil acesso, podem ser necessários meios de transporte alternativos, como camelos e dromedários, especialmente em oásis ou áreas de difícil acesso.\n\nBioma Vale no Nilo\n\nTipo de plantio: No bioma Vale do Nilo, o plantio agrícola é diversificado e inclui uma ampla gama de culturas. Os principais cultivos incluem algodão, arroz, trigo, cevada, milho, cana-de-açúcar, frutas cítricas, legumes, como feijão e lentilha, além de vegetais como cebola, alho e alface. \n\nTipos de alimentos: Os alimentos cultivados no Vale do Nilo incluem arroz, trigo, cevada, milho, legumes, frutas cítricas, cana-de-açúcar e diversos vegetais. Além disso, o algodão é cultivado para a produção de fibras têxteis. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada no Vale do Nilo é a irrigação por inundação, também conhecida como irrigação por gravidade. Essa técnica aproveita as cheias do rio Nilo para inundar os campos agrícolas, fornecendo água e nutrientes às plantas. Além disso, também são utilizados sistemas de irrigação por aspersão e gotejamento para culturas específicas. A fertilização do solo e o controle de pragas são práticas comuns na agricultura do Vale do Nilo. \n\nCentros comerciais próximos: Os centros comerciais próximos ao Vale do Nilo variam dependendo da localização específica. No entanto, cidades como Assuã, Luxor e Cairo são importantes centros comerciais para a região. Essas cidades possuem mercados locais, cooperativas agrícolas e canais de distribuição para escoar os produtos agrícolas produzidos no Vale do Nilo. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região do Vale do Nilo incluem barcos e embarcações fluviais, devido à presença do rio Nilo. O transporte fluvial é uma opção eficiente para o deslocamento de produtos agrícolas, especialmente em áreas próximas às margens do rio. Além disso, o transporte rodoviário é amplamente utilizado para o transporte de produtos para os centros comerciais e para conectar áreas mais distantes da região.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685138802430",
+      "conditions": "@sul_egito",
+      "dialog_node": "node_9_1685139564295",
+      "previous_sibling": "node_7_1685139561040"
+    },
+    {
+      "type": "standard",
+      "title": "Região Leste da República Democrática do Congo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Leste: Floresta tropical, Montanhas e vulcões\n\nBioma Floresta tropical\n\nTipo de plantio: Nas florestas tropicais da região leste da República Democrática do Congo, as comunidades locais praticam principalmente a agricultura de subsistência, cultivando alimentos básicos para a sobrevivência, como mandioca, milho, banana, batata-doce, inhame e legumes diversos. Além disso, também pode haver o cultivo de frutas tropicais, como abacaxi, manga e maracujá. \n\nTipos de alimentos: Os alimentos cultivados incluem mandioca, milho, banana, batata-doce, inhame, legumes diversos, além de frutas tropicais, como abacaxi, manga e maracujá. Além disso, a região também é rica em recursos naturais, como caça, pesca e coleta de frutas e vegetais selvagens. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada nas florestas tropicais da região leste da República Democrática do Congo pode envolver práticas tradicionais, como o corte e queima de áreas de floresta para a preparação do solo, seguido pelo plantio direto. A agrofloresta, que combina o cultivo de alimentos com a preservação de árvores nativas, também pode ser uma técnica utilizada nessa região. \n\nCentros comerciais próximos: Os centros comerciais próximos à região leste da República Democrática do Congo podem incluir cidades como Goma, Bukavu e Kisangani. Essas cidades possuem mercados locais onde os produtos agrícolas são comercializados, além de oferecerem opções de processamento e distribuição de alimentos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região das florestas tropicais no leste da República Democrática do Congo podem variar dependendo da infraestrutura local. Geralmente, o transporte terrestre é utilizado, como caminhões e veículos utilitários, para o transporte dos produtos agrícolas até os centros comerciais. No entanto, é importante considerar as condições das estradas, que podem ser precárias em algumas áreas, e adaptar-se às circunstâncias locais.\n\n\nBioma Montanha e Vulcões\n\nTipo de plantio: Nas montanhas e vulcões da região leste da República Democrática do Congo, o tipo de plantio mais comum é a agricultura em terraços. Os agricultores constroem terraços nas encostas das montanhas para aproveitar melhor o terreno disponível e evitar a erosão. Isso permite o cultivo de alimentos como batatas, feijão, milho, legumes e alguns tipos de frutas. \n\nTipos de alimentos: Os alimentos cultivados nas montanhas e vulcões da região leste da República Democrática do Congo podem incluir batatas, feijão, milho, legumes, além de algumas frutas adaptadas às condições climáticas da região. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada para as montanhas e vulcões da região leste da República Democrática do Congo é a agricultura em terraços. Essa técnica permite o aproveitamento eficiente do terreno em áreas montanhosas, evitando a erosão do solo e permitindo o cultivo de alimentos em terrenos inclinados. \n\nCentros comerciais próximos: Os centros comerciais próximos à região leste da República Democrática do Congo podem incluir cidades como Goma, Bukavu e Butembo. Essas cidades possuem mercados locais onde os produtos agrícolas são comercializados, além de oferecerem opções de processamento e distribuição de alimentos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região de montanhas e vulcões da República Democrática do Congo podem incluir o uso de estradas e trilhas para o transporte terrestre. Em algumas áreas montanhosas, pode ser necessário o uso de transporte por animais de carga, como mulas ou burros, devido à dificuldade de acesso. No entanto, é importante considerar as condições das estradas e adaptar-se às circunstâncias locais, buscando orientação das comunidades locais.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1685138805300",
+      "conditions": "@leste_congo",
+      "dialog_node": "node_9_1685139893752",
+      "previous_sibling": "node_5_1685139890105"
+    },
+    {
+      "type": "standard",
+      "title": "Região Noroeste da China ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Noroeste: Desertos\n\nBioma Desertos\n\nTipo de plantio: No bioma dos desertos da região noroeste da China, o plantio mais comum é o cultivo de plantas adaptadas a ambientes áridos. Isso inclui culturas resistentes à seca, como algumas variedades de grãos, frutas e vegetais de clima árido, como trigo, cevada, milho, romã, tâmara e melão. Além disso, em algumas áreas, podem ser cultivadas plantas medicinais adaptadas ao clima desértico. \n\nAlimentos provenientes dos plantios: As opções de alimentos provenientes dos plantios em desertos da região noroeste da China incluem grãos como trigo e cevada, que podem ser utilizados para a produção de pães, massas e outros alimentos derivados. Além disso, as frutas como romã, tâmara e melão podem ser consumidas frescas ou processadas em produtos como sucos e geleias. \n\nTécnica de plantação mais adequada: Devido às condições áridas, a técnica de plantação mais adequada nos desertos da região noroeste da China é o uso de técnicas de conservação de água. Isso inclui a utilização de sistemas de irrigação eficientes, como gotejamento ou irrigação por gotejamento subterrâneo, que minimizam a perda de água por evaporação. Além disso, a proteção contra o vento e a prática de manejo adequado do solo são importantes para maximizar a retenção de água e nutrientes. \n\nCentros comerciais próximos: Na região noroeste da China, cidades como Ürümqi, Dunhuang e Lanzhou podem servir como centros comerciais para a comercialização de produtos agrícolas provenientes dos desertos. Essas cidades possuem infraestrutura comercial e mercados onde os produtos podem ser vendidos. Além disso, existem também cooperativas agrícolas e programas governamentais que auxiliam na comercialização dos produtos agrícolas. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região do bioma dos desertos da região noroeste da China incluem o transporte rodoviário e ferroviário. A região possui uma rede de estradas e ferrovias que permitem o transporte de produtos agrícolas para os centros comerciais e outros mercados. Além disso, o transporte aéreo também pode ser utilizado para acessar regiões mais distantes.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1685140264416",
+      "conditions": "@noroeste_china",
+      "dialog_node": "node_9_1685140569744"
+    },
+    {
+      "type": "standard",
+      "title": "Inglaterra ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em qual região da Inglaterra você vive?\n\n- Norte da Inglaterra \n- Sul da Inglaterra \n- Leste da Inglaterra \n- Oeste da Inglaterra \n- Não sei "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685058582497",
+      "conditions": "@inglaterra",
+      "dialog_node": "node_9_1685141412372",
+      "previous_sibling": "node_3_1685140264416"
+    },
+    {
+      "type": "standard",
+      "title": "Região Leste da França",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\nLeste: Florestas mistas e temperadas, Áreas de montanha\n\n\nBioma Florestas mistas e temperadas\n\nTipo de plantio: Nas florestas mistas e temperadas, é comum o cultivo de árvores de valor comercial, como o carvalho e o abeto, para a produção de madeira. Além disso, também é possível realizar o cultivo de árvores frutíferas, como macieiras, pereiras e cerejeiras, que podem ser encontradas em pomares nas proximidades das florestas. \n\nAlimentos provenientes dos plantios: As árvores frutíferas cultivadas na região leste da França oferecem uma variedade de frutas, como maçãs, peras e cerejas. Essas frutas são consumidas frescas, processadas em produtos como compotas, sucos e licores, e também utilizadas na produção de sobremesas e pratos tradicionais da região. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada para as florestas mistas e temperadas envolve a seleção de espécies arbóreas adequadas ao clima e ao solo da região. Além disso, a manutenção da diversidade das espécies e o manejo sustentável da floresta são fundamentais para a preservação do ecossistema e a obtenção de produtos de qualidade. \n\nCentros comerciais próximos: Na região leste da França, existem diversas cidades próximas às florestas que possuem centros comerciais e mercados onde é possível encontrar alimentos provenientes dos plantios locais. Alguns exemplos de cidades importantes incluem Estrasburgo, Nancy, Metz e Colmar. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para a região incluem caminhões para o transporte de madeira e frutas, especialmente em áreas mais afastadas dos centros urbanos. Além disso, a infraestrutura ferroviária é bem desenvolvida na região leste da França, o que possibilita o transporte eficiente de produtos agrícolas. O transporte rodoviário também é amplamente utilizado para o abastecimento dos centros comerciais e mercados locais.\n\n\nBioma Áreas de montanha\n\nTipo de plantio: Nas áreas de montanha, o plantio mais comum é o de culturas adaptadas ao clima e à topografia específicos da região. Isso pode incluir culturas como batatas, cevada, centeio, trigo e legumes de raiz, que são mais resistentes e se adaptam melhor às condições de altitude e clima mais frio. \n\nAlimentos provenientes dos plantios: Os alimentos cultivados nas áreas de montanha da região leste da França são principalmente culturas de subsistência. Isso significa que são alimentos básicos utilizados para alimentação local, como batatas, cereais, legumes de raiz e hortaliças de clima frio. Além disso, a pecuária, como a criação de ovinos e bovinos, também é comum nessas áreas montanhosas, fornecendo carne, leite e produtos lácteos. \n\nTécnica de plantação mais adequada: Dada a topografia irregular e as condições climáticas específicas das áreas de montanha, a técnica de plantação mais adequada é a adoção de práticas de agricultura em terraços. Os terraços permitem o aproveitamento máximo do terreno, evitando a erosão do solo e permitindo o cultivo de culturas em áreas inclinadas. Além disso, a implementação de práticas agrícolas sustentáveis, como rotação de culturas e uso eficiente de recursos hídricos, é essencial nessas áreas. \n\nCentros comerciais próximos: As áreas de montanha da região leste da França tendem a ser mais rurais e remotas, com poucos centros comerciais significativos. No entanto, existem pequenas vilas e cidades nas proximidades onde é possível encontrar mercados locais e estabelecimentos que comercializam produtos agrícolas regionais. \n\nMeios de transporte mais adequados: Devido à topografia montanhosa, os meios de transporte mais adequados nas áreas de montanha são caminhões e veículos especializados para o transporte de produtos agrícolas. Estradas e vias de acesso adequadas são essenciais para garantir o escoamento dos produtos agrícolas para os centros comerciais e mercados locais. Além disso, em algumas áreas, é possível encontrar sistemas de teleféricos ou funiculares para facilitar o transporte em áreas montanhosas íngremes.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1685141416034",
+      "conditions": "@leste_franca",
+      "dialog_node": "node_9_1685141724326",
+      "previous_sibling": "node_1_1685141721419"
+    },
+    {
+      "type": "standard",
+      "title": "Região Oeste da França",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oeste: Paisagem agrícola, Zonas úmidas\n\n\nBioma Paisagem agrícola\n\nTipo de plantio: Na paisagem agrícola da região oeste da França, encontram-se diversos tipos de plantio. Alguns exemplos comuns incluem trigo, cevada, milho, girassol, colza, beterraba açucareira, frutas e legumes. Além disso, a criação de gado, incluindo bovinos e ovinos, também é importante nessa região. \n\nAlimentos provenientes dos plantios: Os alimentos produzidos na paisagem agrícola do oeste da França são variados. Dentre os principais alimentos cultivados, destacam-se cereais como trigo e cevada, utilizados na produção de pães e cervejas. O milho é utilizado tanto como alimento para animais como para a produção de produtos derivados, como óleo e amido. As beterrabas açucareiras são cultivadas para a produção de açúcar. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada na paisagem agrícola do oeste da França depende do tipo de cultivo específico. No entanto, técnicas comuns incluem o uso de máquinas agrícolas para semear e colher culturas em larga escala, a rotação de culturas para preservar a fertilidade do solo e a utilização de técnicas de irrigação, quando necessário. \n\nCentros comerciais próximos: Na região oeste da França, existem diversas cidades e vilas que atuam como centros comerciais para os produtos agrícolas. Alguns exemplos incluem Rennes, Nantes, Angers, La Rochelle e Poitiers. Essas cidades possuem mercados locais, supermercados, cooperativas agrícolas e indústrias de processamento de alimentos. \n\nMeios de transporte mais adequados: Devido à extensão da paisagem agrícola e à necessidade de transportar grandes quantidades de produtos, os meios de transporte mais adequados são caminhões e veículos especializados para o transporte agrícola. Além disso, a região também possui boas redes de estradas e ferrovias, que facilitam o transporte de produtos para os centros comerciais e para outras regiões da França. O transporte fluvial também pode ser utilizado em algumas áreas onde há rios navegáveis.\n\nBioma Zonas úmidas\n\nTipo de plantio: Nas zonas úmidas da região oeste da França, são comuns o cultivo de arroz, plantas aquáticas, como juncos e canas, e plantas típicas de áreas úmidas, como samambaias e musgos. Além disso, algumas áreas podem ser utilizadas para a produção de forragem para animais, como pastagens úmidas. \n\nTipos de alimentos desses plantios: O principal alimento cultivado nessas zonas úmidas é o arroz, que pode ser utilizado em diferentes preparações culinárias. Além disso, as plantas aquáticas, como juncos e canas, podem ser utilizadas na produção de cestarias, artesanato e outros produtos. \n\nTécnica de plantação mais adequada: A técnica de plantação mais adequada para as zonas úmidas envolve o manejo da água e do solo. A drenagem adequada e a manutenção de níveis de umidade controlados são importantes para o cultivo de arroz. O uso de técnicas de irrigação, como sistemas de canais e comportas, também pode ser necessário. Além disso, a conservação da biodiversidade e a proteção das áreas úmidas são fundamentais para manter a saúde do ecossistema. \n\nCentros comerciais próximos: Na região oeste da França, existem várias cidades e vilas que atuam como centros comerciais para os produtos provenientes das zonas úmidas. Algumas cidades importantes nessa região incluem Nantes, Rennes, La Rochelle e Brest. Esses centros comerciais possuem mercados locais, supermercados e indústrias de processamento de alimentos. \n\nMeios de transporte mais adequados: Os meios de transporte mais adequados para as zonas úmidas da região oeste da França dependem da localização e do tamanho da área úmida. Em geral, a utilização de barcos, canoas ou outros meios de transporte aquático pode ser necessário para acessar certas áreas. Além disso, os meios de transporte terrestres, como caminhões, são usados para o transporte de produtos agrícolas das zonas úmidas para os centros comerciais e outras regiões. As redes de estradas e ferrovias também são importantes para facilitar o transporte.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1685141416034",
+      "conditions": "@oeste_franca",
+      "dialog_node": "node_9_1685141727465",
+      "previous_sibling": "node_9_1685141724326"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1685056691832",
+      "variable": "$nome_usuario",
+      "dialog_node": "slot_10_1685056723792"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "Essa skill tem a função de prestar assistência para quem irá usar desta plataforma.",
+  "name": "Localiza&Auxilia-dialog"
+}

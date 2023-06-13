@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44FCA2DB-DACE-7C4B-D1A8-4137C3099683" name="T_LC&amp;A_TECNICA_PLANTACAO">
+<createdBy>Eduardo Finardi</createdBy>
+<createdTime>2023-06-02 01:03:55 UTC</createdTime>
+<ownerDesignName>GS</ownerDesignName>
+<engineerTo>
+<item key="7B733508-ED63-6FA0-70BC-EE27EEBF1DA5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_regiao" id="1542F976-6968-D32D-EE79-E45951F717C1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-06-02 11:59:34 UTC</createdTime>
+<generatorID>A52E9B55-3671-F056-BCA3-D90823AA9592</generatorID>
+<ownerDesignName>GS</ownerDesignName>
+<engineerTo>
+<item key="7B733508-ED63-6FA0-70BC-EE27EEBF1DA5" value="true"/>
+</engineerTo>
+<referedAttribute>01E460CB-962F-B751-B040-12BF46503358</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_tecnica" id="71FD3824-D2D2-58E7-F5BE-ADF6BB331501">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-06-02 13:41:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome da técnica de platanção utilizada na região.]]></commentInRDBMS>
+<ownerDesignName>GS</ownerDesignName>
+<engineerTo>
+<item key="7B733508-ED63-6FA0-70BC-EE27EEBF1DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tecnica" id="BF8370A4-8923-034B-4401-49FD48430396">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-06-02 13:41:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descrição da técnica de plantação, variando entre várias, como: agroflorestal, manejo de pastagens, rotação de culturas, combinação de culturas, cultivo itinerante, plantio direto, manejo adequado do solo e pastagens por meio de barragens e cisternas.]]></commentInRDBMS>
+<ownerDesignName>GS</ownerDesignName>
+<engineerTo>
+<item key="7B733508-ED63-6FA0-70BC-EE27EEBF1DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9FE531E-192B-0DBD-0D2E-C33DDC10735C" name="T_LC&amp;A_TECNICA_PLANTACAO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-06-02 13:41:51 UTC</createdTime>
+<ownerDesignName>GS</ownerDesignName>
+<engineerTo>
+<item key="7B733508-ED63-6FA0-70BC-EE27EEBF1DA5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>71FD3824-D2D2-58E7-F5BE-ADF6BB331501</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,39 @@
+===SPEECH TO TEXT===
+
+API KEY: H5YTtEj-EUL5Gge5qCiyI6Bi_qcfRDAetQTYquaG3-01
+URL: https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/2aab82e2-0e33-41b7-89a6-e2bb2390ccca
+
+===TEXT TO SPEECH===
+
+API KEY: mWm9xnrUAHWEhiI3g51H19sMTG4CpHxWjkqLeD6gNACg
+URL: https://api.au-syd.text-to-speech.watson.cloud.ibm.com/instances/305847ac-48e0-4f75-bb9a-f4a6ba488e91
+
+===WATSON ASSISTANT=== 
+
+API KEY: 0eMEzjOTnRu1lnOHEXbM_bAuO6gQnHyNOANzHyp6FgrM
+URL: https://api.au-syd.assistant.watson.cloud.ibm.com/instances/8a1e2c75-9e16-4585-b55c-0f5c146ab575
+
+===LANGUAGE TRANSLATOR===
+
+API KEY: H3URl6Ej1K37g8_b7p62fLDjc3ssgXKf3b9lkwzwaBPe
+URL: https://api.au-syd.language-translator.watson.cloud.ibm.com/instances/bd266a63-bfdc-4fcd-bd1d-d849ad50e653
+
+===LOCALIZA&AUXILIA ASSISTANT===
+
+ASSISTANT NAME: Localiza&Auxilia 
+ASSISTANT ID: b42a84a8-e17c-44b9-8120-9c99688d9309
+ASSISTANT URL: https://api.au-syd.assistant.watson.cloud.ibm.com/v2/assistants/b42a84a8-e17c-44b9-8120-9c99688d9309/sessions
+
+TOKEN : 6043748535:AAHmPDqsdC3o0KpLXXeDrrTDkDKUMrOvl28
+
+
+Grupo - Localiza&Auxilia - 1TDSA
+
+
+Angélica Melo | RM 550776
+
+Eduardo Finardi | RM 98624
+
+Matheus Roberto | RM  98581
+
+Ricardo Yuri Domingues | RM 551808

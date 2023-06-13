@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="25ACB603-AB2F-9382-6C59-16694E690DE3" name="T_LC&amp;A_TIPO_PLANTIO">
+<createdBy>Eduardo Finardi</createdBy>
+<createdTime>2023-06-02 01:03:37 UTC</createdTime>
+<ownerDesignName>GS</ownerDesignName>
+<engineerTo>
+<item key="7B733508-ED63-6FA0-70BC-EE27EEBF1DA5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_regiao" id="1D391CCD-3519-5137-671C-6288F601917C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-06-02 11:59:34 UTC</createdTime>
+<generatorID>6FAD9F55-A1BE-7303-CA29-D6C3445133B2</generatorID>
+<ownerDesignName>GS</ownerDesignName>
+<engineerTo>
+<item key="7B733508-ED63-6FA0-70BC-EE27EEBF1DA5" value="true"/>
+</engineerTo>
+<referedAttribute>01E460CB-962F-B751-B040-12BF46503358</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_plantio" id="A4A6BCD1-95CB-6A17-2956-9F32960099E0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-06-02 13:38:21 UTC</createdTime>
+<ownerDesignName>GS</ownerDesignName>
+<engineerTo>
+<item key="7B733508-ED63-6FA0-70BC-EE27EEBF1DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_plantio" id="6EF06EFE-88E0-A301-B47D-6AC418FDB175">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-06-02 13:39:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[descrição dos tipos de plantis da região, como crescem, tipo de solo, clima mais adequado e grupo de plantas predominantes.]]></commentInRDBMS>
+<ownerDesignName>GS</ownerDesignName>
+<engineerTo>
+<item key="7B733508-ED63-6FA0-70BC-EE27EEBF1DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="020ABAD6-E010-89A9-2F86-6C1C6E7F9F2B" name="T_LC&amp;A_TIPO_PLANTIO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-06-02 13:39:24 UTC</createdTime>
+<ownerDesignName>GS</ownerDesignName>
+<engineerTo>
+<item key="7B733508-ED63-6FA0-70BC-EE27EEBF1DA5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4A6BCD1-95CB-6A17-2956-9F32960099E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

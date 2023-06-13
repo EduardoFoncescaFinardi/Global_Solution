@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C17E78B-511A-B41B-DF73-C837B8068C88" name="T_LC&amp;A_MEIO_TRANSPORTE">
+<createdBy>Eduardo Finardi</createdBy>
+<createdTime>2023-06-02 01:04:05 UTC</createdTime>
+<ownerDesignName>GS</ownerDesignName>
+<engineerTo>
+<item key="7B733508-ED63-6FA0-70BC-EE27EEBF1DA5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_regiao" id="9D68920D-BD4C-E6DB-1851-060EC8FD7A31">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-06-02 11:59:34 UTC</createdTime>
+<generatorID>78AEF1B3-D583-A5D8-DA70-6F451A847623</generatorID>
+<ownerDesignName>GS</ownerDesignName>
+<engineerTo>
+<item key="7B733508-ED63-6FA0-70BC-EE27EEBF1DA5" value="true"/>
+</engineerTo>
+<referedAttribute>01E460CB-962F-B751-B040-12BF46503358</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_meio_transporte" id="FA8F2AFC-FCC8-B3A3-7B27-4A5F82675F46">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-06-02 13:42:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Representa o tipo de meio, sendo eles: Rodoviário, hidroviário, ferroviário e áreo.]]></commentInRDBMS>
+<ownerDesignName>GS</ownerDesignName>
+<engineerTo>
+<item key="7B733508-ED63-6FA0-70BC-EE27EEBF1DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_meio_transporte" id="380AFF2C-87C8-F0BE-0851-33A671880417">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-06-02 13:43:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[A descrição com base no tipo de meio de transporte, Caso seja transporte do tipo rodoviário será descrito as rotas principais, tipo de automóvel, entre outras informações.]]></commentInRDBMS>
+<ownerDesignName>GS</ownerDesignName>
+<engineerTo>
+<item key="7B733508-ED63-6FA0-70BC-EE27EEBF1DA5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9E54A853-FB33-C985-8B2E-C9AE7B50A370" name="T_LC&amp;A_MEIO_TRANSPORTE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-06-02 13:44:07 UTC</createdTime>
+<ownerDesignName>GS</ownerDesignName>
+<engineerTo>
+<item key="7B733508-ED63-6FA0-70BC-EE27EEBF1DA5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA8F2AFC-FCC8-B3A3-7B27-4A5F82675F46</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
